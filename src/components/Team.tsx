@@ -16,13 +16,13 @@ const Team = (props: TeamInterface) => {
             (props.reverse == true)
             ? <div className="flex justify-start w-1/2">
                 <Score goals={props.goals} />
-                <div className="text-center font-sans text-md sm:text-2xl m-0.5 sm:m-1 px-1 sm:px-2 py-1 grow">{props.name}</div>
+                <div className="text-center font-sans text-md sm:text-2xl my-auto grow">{props.name}</div>
                 <Flag country={props.name} />
               </div>
             :
               <div className="flex justify-end w-1/2">
                 <Flag country={props.name} />
-                <div className="text-center font-sans text-md sm:text-2xl m-0.5 sm:m-1 px-1 sm:px-2 py-1 grow">{props.name}</div>
+                <div className="text-center font-sans text-md sm:text-2xl my-auto grow">{props.name}</div>
                 <Score goals={props.goals} />
               </div>  
           }
