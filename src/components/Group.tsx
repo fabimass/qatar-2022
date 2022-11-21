@@ -15,7 +15,7 @@ interface GroupInterface{
 const Group = (props: GroupInterface) => {
 
     return (
-        <div className="inline-block m-0.5 sm:m-4 p-0.5 sm:p-1 min-w-full sm:min-w-[500px] bg-slate-900/95 text-center text-white font-sans border-solid border-2 border-gray-300 rounded-2xl sm:rounded-3xl">
+        <div className="inline-block my-3 sm:m-4 p-0.5 sm:p-1 min-w-full sm:min-w-[500px] bg-slate-900/75 text-center text-white font-sans border-solid border-2 border-gray-300 rounded-2xl sm:rounded-3xl">
           <p>Group {props.name}</p>
           <hr className="my-2 border-gray-300 "></hr>
           <div>
