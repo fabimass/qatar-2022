@@ -12,9 +12,9 @@ interface MatchInterface{
 const Match = (props: MatchInterface) => {
 
     return (
-        <div className={(props.step=="groups") ? "" : "border-solid border-2 border-red-300"}>
-          <Team name={props.team_1} goals={props.team_1_goals} local={true} />
-          <Team name={props.team_2} goals={props.team_2_goals} local={false} />
+        <div className={(props.step=="groups") ? "flex" : "border-solid border-2 border-red-300"}>
+          <Team name={props.team_1} goals={props.team_1_goals} reverse={false} />
+          <Team name={props.team_2} goals={props.team_2_goals} reverse={true} />
         </div>
     )
 }
