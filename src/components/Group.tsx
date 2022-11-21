@@ -8,6 +8,12 @@ interface GroupInterface{
       team_1_goals: number | null,
       team_2: string,
       team_2_goals: number | null,
+      goals: Array<{
+        order: number,
+        minute: number,
+        author: string,
+        team: number
+      }>,
       photo: string
     }>
 }
@@ -26,6 +32,7 @@ const Group = (props: GroupInterface) => {
                                                  team_2={match.team_2}
                                                  team_2_goals={match.team_2_goals}
                                                  photo={match.photo}
+                                                 goals={match.goals}
                                                  step={"groups"} /> ) }
           </div>
         </div>

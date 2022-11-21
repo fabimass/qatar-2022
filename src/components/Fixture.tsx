@@ -11,7 +11,21 @@ const Fixture = {
                     "team_1_goals":0,
                     "team_2":"Ecuador",
                     "team_2_goals":2,
-                    "photo":"./photos/QatarEcuador.png"
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 16,
+                            "author": "Enner Valencia",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": 31,
+                            "author": "Enner Valencia",
+                            "team": 2
+                        }
+                    ],
+                    "photo":"photos/QatarEcuador.png"
                 },
                 {
                     "order":2,
@@ -19,6 +33,7 @@ const Fixture = {
                     "team_1_goals":null,
                     "team_2":"Netherlands",
                     "team_2_goals":null,
+                    "goals":[],
                     "photo":""
                 }
             ]
@@ -32,6 +47,7 @@ const Fixture = {
                     "team_1_goals":null,
                     "team_2":"Iran",
                     "team_2_goals":null,
+                    "goals":[],
                     "photo":""
                 },
                 {
@@ -40,6 +56,7 @@ const Fixture = {
                     "team_1_goals":null,
                     "team_2":"Wales",
                     "team_2_goals":null,
+                    "goals":[],
                     "photo":""
                 }
             ]
@@ -83,6 +100,7 @@ const Fixture = {
                     "team_1_goals":null,
                     "team_2":"South Corea",
                     "team_2_goals":null,
+                    "goals":[],
                     "photo":""
                 }
             ]

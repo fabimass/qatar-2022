@@ -1,23 +1,21 @@
-import Photo from './Photo'
 import Goal from './Goal'
 
 interface DetailsInterface{
     photo: string,
-    goals?: Array<{
+    goals: Array<{
         order: number,
         minute: number,
-        author: string
+        author: string,
+        team: number
     }>
 }
 
-// This component shows details of the match once you hover over it
+// This component shows the goals of the match once you hover over it
 const Details = (props: DetailsInterface) => {
 
     return (
-        <div className="overflow-hidden h-[400px] group-hover:h-[400px] transition-height duration-1000 ease-in-out py-2">
-            <Goal reverse={false} minute={45} author={"Fabi"} />
-            <Goal reverse={true} minute={45} author={"makelele"} />
-            <Photo path={props.photo} />
+        <div className={`overflow-hidden h-0 group-hover:h-[300px] my-1 transition-height duration-1000 ease-in-out bg-[url('${props.photo}')] bg-cover`}>
+            { props.goals.map( goal => <Goal key={goal.order} reverse={(goal.team==1) ? false : true} minute={goal.minute} author={goal.author} /> ) }
         </div>
     )
 }

@@ -6,6 +6,12 @@ interface MatchInterface{
     team_1_goals: number | null,
     team_2: string,
     team_2_goals: number | null,
+    goals: Array<{
+        order: number,
+        minute: number,
+        author: string,
+        team: number
+    }>,
     photo: string,
     step: string
 }
@@ -19,7 +25,7 @@ const Match = (props: MatchInterface) => {
                 <Team name={props.team_1} goals={props.team_1_goals} reverse={false} />
                 <Team name={props.team_2} goals={props.team_2_goals} reverse={true} />
             </div>
-            <Details photo={props.photo} />
+            <Details photo={props.photo} goals={props.goals} />
         </div>
     )
 }
