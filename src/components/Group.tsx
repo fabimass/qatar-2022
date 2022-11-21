@@ -2,7 +2,7 @@ import Match from './Match'
 
 interface GroupInterface{
     name: string,
-    matches : Array<{
+    matches: Array<{
         number: number,
         team_1: string,
         team_1_goals: number | null,
