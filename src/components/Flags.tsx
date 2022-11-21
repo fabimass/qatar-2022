@@ -5,22 +5,22 @@ interface FlagsInterface{
 
 // Path to the flag icons
 const Flags: FlagsInterface = {
-    "Argentina" : "./flagArgentina.png",
-    "Brazil" : "./flagBrazil.png",
-    "Costa Rica" : "./flagCostaRica.png",
-    "Croatia" : "./flagCroatia.png",
-    "Denmark" : "./flagDenmark.png",
-    "Ecuador" : "./flagEcuador.png",
-    "England" : "./flagEngland.png",
-    "France" : "./flagFrance.png",
-    "Germany" : "./flagGermany.png",
-    "Iran" : "./flagIran.png",
-    "Netherlands" : "./flagNetherlands.png",
-    "Qatar" : "./flagQatar.png",
-    "Senegal" : "./flagSenegal.png",
-    "United States" : "./flagUSA.png",
-    "Uruguay" : "./flagUruguay.png",
-    "Wales" : "./flagWales.png"
+    "Argentina" : "./flags/Argentina.png",
+    "Brazil" : "./flags/Brazil.png",
+    "Costa Rica" : "./flags/CostaRica.png",
+    "Croatia" : "./flags/Croatia.png",
+    "Denmark" : "./flags/Denmark.png",
+    "Ecuador" : "./flags/Ecuador.png",
+    "England" : "./flags/England.png",
+    "France" : "./flags/France.png",
+    "Germany" : "./flags/Germany.png",
+    "Iran" : "./flags/Iran.png",
+    "Netherlands" : "./flags/Netherlands.png",
+    "Qatar" : "./flags/Qatar.png",
+    "Senegal" : "./flags/Senegal.png",
+    "United States" : "./flags/USA.png",
+    "Uruguay" : "./flags/Uruguay.png",
+    "Wales" : "./flags/Wales.png"
 }
 
 export default Flags
