@@ -6,18 +6,20 @@ const Fixture = {
             "name":"A",
             "matches": [
                 {
-                    "number":1,
+                    "order":1,
                     "team_1":"Qatar",
                     "team_1_goals":0,
                     "team_2":"Ecuador",
-                    "team_2_goals":2
+                    "team_2_goals":2,
+                    "photo":"./photos/QatarEcuador.png"
                 },
                 {
-                    "number":2,
+                    "order":2,
                     "team_1":"Senegal",
                     "team_1_goals":null,
                     "team_2":"Netherlands",
-                    "team_2_goals":null
+                    "team_2_goals":null,
+                    "photo":""
                 }
             ]
         },
@@ -25,18 +27,20 @@ const Fixture = {
             "name":"B",
             "matches": [
                 {
-                    "number":1,
+                    "order":1,
                     "team_1":"England",
                     "team_1_goals":null,
                     "team_2":"Iran",
-                    "team_2_goals":null
+                    "team_2_goals":null,
+                    "photo":""
                 },
                 {
-                    "number":2,
+                    "order":2,
                     "team_1":"United States",
                     "team_1_goals":null,
                     "team_2":"Wales",
-                    "team_2_goals":null
+                    "team_2_goals":null,
+                    "photo":""
                 }
             ]
         },
@@ -74,11 +78,12 @@ const Fixture = {
             "name":"H",
             "matches": [
                 {
-                    "number":1,
+                    "order":1,
                     "team_1":"Uruguay",
                     "team_1_goals":null,
                     "team_2":"South Corea",
-                    "team_2_goals":null
+                    "team_2_goals":null,
+                    "photo":""
                 }
             ]
         }

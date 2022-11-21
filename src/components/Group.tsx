@@ -3,12 +3,13 @@ import Match from './Match'
 interface GroupInterface{
     name: string,
     matches: Array<{
-        number: number,
-        team_1: string,
-        team_1_goals: number | null,
-        team_2: string,
-        team_2_goals: number | null
-      }>
+      order: number,
+      team_1: string,
+      team_1_goals: number | null,
+      team_2: string,
+      team_2_goals: number | null,
+      photo: string
+    }>
 }
 
 // This component represents a single group
@@ -19,11 +20,12 @@ const Group = (props: GroupInterface) => {
           <p>Group {props.name}</p>
           <hr className="my-2 border-gray-300 "></hr>
           <div>
-            { props.matches.map( match => <Match key={match.number} 
+            { props.matches.map( match => <Match key={match.order} 
                                                  team_1={match.team_1}
                                                  team_1_goals={match.team_1_goals}
                                                  team_2={match.team_2}
                                                  team_2_goals={match.team_2_goals}
+                                                 photo={match.photo}
                                                  step={"groups"} /> ) }
           </div>
         </div>
