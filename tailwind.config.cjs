@@ -6,10 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      animation: {
-        'spin-slow': 'spin 10s linear infinite'
+      transitionProperty: {
+        'height': 'height'
       }
-    },
+    }
+  },
+  variants: {
+    height: ['responsive', 'hover', 'focus']
   },
   plugins: [],
 }
