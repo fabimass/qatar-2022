@@ -14,7 +14,7 @@ interface DetailsInterface{
 const Details = (props: DetailsInterface) => {
 console.log(props.photo)
     return (
-        <div className="overflow-hidden h-0 group-hover:h-[300px] my-1 transition-height duration-1000 ease-in-out bg-cover" style={{ backgroundImage: `url("${props.photo}")` }}>
+        <div className={`overflow-hidden h-0 group-hover:h-[250px] group-hover:sm:h-[300px] my-1 transition-height duration-1000 ease-in-out bg-cover`} style={{ backgroundImage: `url("${props.photo}")` }}>
             { props.goals.map( goal => <Goal key={goal.order} reverse={(goal.team==1) ? false : true} minute={goal.minute} author={goal.author} /> ) }
         </div>
     )

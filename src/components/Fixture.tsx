@@ -25,7 +25,7 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./img/1.png"
+                    "photo":"./photos/1.png"
                 },
                 {
                     "order":2,
@@ -34,7 +34,7 @@ const Fixture = {
                     "team_2":"Netherlands",
                     "team_2_goals":null,
                     "goals":[],
-                    "photo":"./img/3.png"
+                    "photo":"./photos/3.png"
                 }
             ]
         },
@@ -44,11 +44,60 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"England",
-                    "team_1_goals":null,
+                    "team_1_goals":6,
                     "team_2":"Iran",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 35,
+                            "author": "Jude Bellingham",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": 43,
+                            "author": "Bukayo Saka",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": 45,
+                            "author": "Raheem Sterling",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": 62,
+                            "author": "Bukayo Saka",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": 65,
+                            "author": "Mehdi Taremi",
+                            "team": 2
+                        },
+                        {
+                            "order": 6,
+                            "minute": 71,
+                            "author": "Marcus Rashford",
+                            "team": 1
+                        },
+                        {
+                            "order": 7,
+                            "minute": 90,
+                            "author": "Jack Grealish",
+                            "team": 1
+                        },
+                        {
+                            "order": 8,
+                            "minute": 113,
+                            "author": "Mehdi Taremi",
+                            "team": 2
+                        },
+                    ],
+                    "photo":"./photos/2.png"
                 },
                 {
                     "order":2,
