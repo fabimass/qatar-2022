@@ -60,7 +60,13 @@ const Fixture = {
         {
             "name":"H",
             "matches": [
-                
+                {
+                    "number":1,
+                    "team_1":"Uruguay",
+                    "team_1_goals":null,
+                    "team_2":"South Corea",
+                    "team_2_goals":null
+                }
             ]
         }
     ]

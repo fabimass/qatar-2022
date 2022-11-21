@@ -1,3 +1,4 @@
+import Flags from './Flags'
 
 interface FlagInterface{
     country: string
@@ -6,8 +7,10 @@ interface FlagInterface{
 // This component represents a single team and his score
 const Flag = (props: FlagInterface) => {
 
+    const key: keyof typeof Flags = props.country;
+
     return (
-        <img src={`./${props.country}.png`} className="max-h-[35px] sm:max-h-[53px]"/>
+        <img src={Flags[props.country]} className="max-h-[35px] sm:max-h-[53px]"/>
     )
 }
 
