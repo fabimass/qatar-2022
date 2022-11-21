@@ -26,7 +26,7 @@ const Group = (props: GroupInterface) => {
           <p>Group {props.name}</p>
           <hr className="my-2 border-gray-300 "></hr>
           <div>
-            { props.matches.map( match => <Match key={match.order} 
+            { props.matches.map( match => <Match key={match.order+props.name} 
                                                  team_1={match.team_1}
                                                  team_1_goals={match.team_1_goals}
                                                  team_2={match.team_2}
