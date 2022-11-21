@@ -25,7 +25,7 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"qatar-ecuador"
+                    "photo":"./img/1.png"
                 },
                 {
                     "order":2,
@@ -34,7 +34,7 @@ const Fixture = {
                     "team_2":"Netherlands",
                     "team_2_goals":null,
                     "goals":[],
-                    "photo":"senegal-netherlands"
+                    "photo":"./img/3.png"
                 }
             ]
         },
