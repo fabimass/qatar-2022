@@ -24,7 +24,20 @@ const Fixture = {
         {
             "name":"B",
             "matches": [
-                
+                {
+                    "number":1,
+                    "team_1":"England",
+                    "team_1_goals":null,
+                    "team_2":"Iran",
+                    "team_2_goals":null
+                },
+                {
+                    "number":2,
+                    "team_1":"United States",
+                    "team_1_goals":null,
+                    "team_2":"Wales",
+                    "team_2_goals":null
+                }
             ]
         },
         {
