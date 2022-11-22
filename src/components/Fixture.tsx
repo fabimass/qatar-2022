@@ -214,10 +214,29 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"Argentina",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Saudi Arabia",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 10,
+                            "author": "Lionel Messi",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": 48,
+                            "author": "Saleh Al-Shehri",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": 53,
+                            "author": "Salem Al-Dawsari",
+                            "team": 2
+                        }
+                    ],
                     "photo":"./photos/5.png"
                 },
                 {
