@@ -1,8 +1,8 @@
-import Group from './Group'
+
 import Fixture from './Fixture'
 
-// This component will manage the 8 groups of the first round
-const Groups = () => {
+// This component will manage the playoffs for big screens
+const PlayoffsBig = () => {
 
     return (
         <div>
@@ -11,4 +11,4 @@ const Groups = () => {
     )
 }
 
-export default Groups
+export default PlayoffsBig

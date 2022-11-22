@@ -1,11 +1,13 @@
 import './App.css'
-import Groups from './components/Groups'
+import FirstRound from './components/FirstRound'
+import PlayoffsSmall from './components/PlayoffsSmall'
 
 function App() {
 
   return (
     <>
-      <Groups />
+      <FirstRound />
+      <PlayoffsSmall />
     </>
   )
 }

@@ -1,9 +1,9 @@
 
 const Fixture = {
 
-    "groups": [
+    "first-round": [
         {
-            "name":"A",
+            "name":"Group A",
             "matches": [
                 {
                     "order":1,
@@ -88,7 +88,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"B",
+            "name":"Group B",
             "matches": [
                 {
                     "order":1,
@@ -209,7 +209,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"C",
+            "name":"Group C",
             "matches": [
                 {
                     "order":1,
@@ -268,7 +268,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"D",
+            "name":"Group D",
             "matches": [
                 {
                     "order":1,
@@ -327,7 +327,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"E",
+            "name":"Group E",
             "matches": [
                 {
                     "order":1,
@@ -386,7 +386,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"F",
+            "name":"Group F",
             "matches": [
                 {
                     "order":1,
@@ -445,7 +445,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"G",
+            "name":"Group G",
             "matches": [
                 {
                     "order":1,
@@ -504,7 +504,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"H",
+            "name":"Group H",
             "matches": [
                 {
                     "order":1,
@@ -556,6 +556,177 @@ const Fixture = {
                     "team_1":"Ghana",
                     "team_1_goals":null,
                     "team_2":"Uruguay",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                }
+            ]
+        }
+    ],
+    "playoffs": [
+        {
+            "name":"Round of 16",
+            "matches": [
+                {
+                    "order":1,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":2,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":3,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":4,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":5,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":6,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":7,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":8,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                }
+            ]
+        },
+        {
+            "name":"Round of 8",
+            "matches": [
+                {
+                    "order":1,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":2,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":3,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":4,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                }
+            ]
+        },
+        {
+            "name":"Semifinals",
+            "matches": [
+                {
+                    "order":1,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                },
+                {
+                    "order":2,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                }
+            ]
+        },
+        {
+            "name":"Third Place",
+            "matches": [
+                {
+                    "order":1,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
+                    "team_2_goals":null,
+                    "goals":[],
+                    "photo":""
+                }
+            ]
+        },
+        {
+            "name":"Final",
+            "matches": [
+                {
+                    "order":1,
+                    "team_1":"-",
+                    "team_1_goals":null,
+                    "team_2":"-",
                     "team_2_goals":null,
                     "goals":[],
                     "photo":""
