@@ -382,19 +382,81 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"Germany",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Japan",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 33,
+                            "author": "Ilkay Gundogan",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": 75,
+                            "author": "Ritsu Doan",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": 83,
+                            "author": "Takuma Asano",
+                            "team": 2
+                        }
+                    ],
                     "photo":"./photos/10.png"
                 },
                 {
                     "order":2,
                     "team_1":"Spain",
-                    "team_1_goals":null,
+                    "team_1_goals":7,
                     "team_2":"Costa Rica",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 11,
+                            "author": "Dani Olmo",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": 21,
+                            "author": "Marco Asensio",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": 31,
+                            "author": "Ferran Torres",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": 54,
+                            "author": "Ferran Torres",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": 74,
+                            "author": "Gavi",
+                            "team": 1
+                        },
+                        {
+                            "order": 6,
+                            "minute": 90,
+                            "author": "Carlos Soler",
+                            "team": 1
+                        },
+                        {
+                            "order": 7,
+                            "minute": 92,
+                            "author": "Alvaro Morata",
+                            "team": 1
+                        }
+                    ],
                     "photo":"./photos/11.png"
                 },
                 {
@@ -441,19 +503,26 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"Morocco",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"Croatia",
-                    "team_2_goals":null,
+                    "team_2_goals":0,
                     "goals":[],
                     "photo":"./photos/9.png"
                 },
                 {
                     "order":2,
                     "team_1":"Belgium",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Canada",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 44,
+                            "author": "Michy Batshuayi",
+                            "team": 1
+                        }
+                    ],
                     "photo":"./photos/12.png"
                 },
                 {
