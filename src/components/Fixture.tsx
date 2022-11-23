@@ -242,9 +242,9 @@ const Fixture = {
                 {
                     "order":2,
                     "team_1":"Mexico",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"Poland",
-                    "team_2_goals":null,
+                    "team_2_goals":0,
                     "goals":[],
                     "photo":"./photos/7.png"
                 },
@@ -292,19 +292,50 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"Denmark",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"Tunisia",
-                    "team_2_goals":null,
+                    "team_2_goals":0,
                     "goals":[],
                     "photo":"./photos/6.png"
                 },
                 {
                     "order":2,
                     "team_1":"France",
-                    "team_1_goals":null,
+                    "team_1_goals":4,
                     "team_2":"Australia",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":1,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 9,
+                            "author": "Craig Goodwin",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": 27,
+                            "author": "Adrien Rabiot",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": 32,
+                            "author": "Olivier Giroud",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": 68,
+                            "author": "Kylian Mbappe",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": 71,
+                            "author": "Olivier Giroud",
+                            "team": 1
+                        }
+                    ],
                     "photo":"./photos/8.png"
                 },
                 {
