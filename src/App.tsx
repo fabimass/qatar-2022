@@ -1,13 +1,15 @@
 import './App.css'
-import FirstRound from './components/FirstRound'
-import PlayoffsSmall from './components/PlayoffsSmall'
+import Fixture from './components/Fixture'
+import Groups from './components/Groups'
+import Playoffs from './components/Playoffs'
 
 function App() {
 
   return (
     <>
-      <FirstRound />
-      <PlayoffsSmall />
+      <Groups groups={Fixture["first-round"]}/>
+      <Groups groups={Fixture["playoffs"]}/>
+      <Playoffs />
     </>
   )
 }
