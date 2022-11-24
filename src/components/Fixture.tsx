@@ -569,19 +569,39 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"Switzerland",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Cameroon",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 48,
+                            "author": "Breel Embolo",
+                            "team": 1
+                        }
+                    ],
                     "photo":"./photos/13.png"
                 },
                 {
                     "order":2,
                     "team_1":"Brazil",
-                    "team_1_goals":null,
+                    "team_1_goals":2,
                     "team_2":"Serbia",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 62,
+                            "author": "Richarlison",
+                            "team": 1
+                        },
+                        {
+                            "order": 1,
+                            "minute": 73,
+                            "author": "Richarlison",
+                            "team": 1
+                        }
+                    ],
                     "photo":"./photos/16.png"
                 },
                 {
@@ -628,19 +648,50 @@ const Fixture = {
                 {
                     "order":1,
                     "team_1":"Uruguay",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"South Korea",
-                    "team_2_goals":null,
+                    "team_2_goals":0,
                     "goals":[],
                     "photo":"./photos/14.png"
                 },
                 {
                     "order":2,
                     "team_1":"Portugal",
-                    "team_1_goals":null,
+                    "team_1_goals":3,
                     "team_2":"Ghana",
-                    "team_2_goals":null,
-                    "goals":[],
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 65,
+                            "author": "Cristiano Ronaldo",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": 73,
+                            "author": "Andre Ayew",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": 78,
+                            "author": "Joao Felix",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": 80,
+                            "author": "Rafael Leao",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": 89,
+                            "author": "Osman Bukari",
+                            "team": 2
+                        }
+                    ],
                     "photo":"./photos/15.png"
                 },
                 {
