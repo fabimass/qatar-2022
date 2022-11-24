@@ -33,7 +33,7 @@ const Group = (props: GroupInterface) => {
                                                  team_2_goals={match.team_2_goals}
                                                  photo={match.photo}
                                                  goals={match.goals}
-                                                 aligned={true} /> ) }
+                                                 aligned={'horizontal'} /> ) }
           </div>
         </div>
     )

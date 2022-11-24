@@ -8,8 +8,12 @@ function App() {
   return (
     <>
       <Groups groups={Fixture["first-round"]}/>
-      <Groups groups={Fixture["playoffs"]}/>
-      <Playoffs />
+      <div className="block md:hidden">
+        <Groups groups={Fixture["playoffs"]}/>
+      </div>
+      <div className="hidden md:block">
+        <Playoffs groups={Fixture["playoffs"]}/>
+      </div>
     </>
   )
 }

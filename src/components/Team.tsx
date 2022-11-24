@@ -4,30 +4,31 @@ import Flag from "./Flag"
 interface TeamInterface{
     name: string,
     goals: number | null,
-    reverse: boolean
+    reverse: boolean,
+    oneline: boolean
 }
 
 // This component represents a single team and his score
 const Team = (props: TeamInterface) => {
 
     return (
-        <>
+      <div className={(props.oneline === true ? "flex justify-start w-1/2 cursor-default" : "flex justify-start cursor-default")}>
           {
-            (props.reverse == true)
-            ? <div className="flex justify-start w-1/2 cursor-default">
+            (props.reverse === true)
+            ? 
+            <>
                 <Score goals={props.goals} />
                 <div className="text-center font-sans text-md sm:text-2xl my-auto grow">{props.name}</div>
                 <Flag country={props.name} />
-              </div>
+            </>   
             :
-              <div className="flex justify-end w-1/2 cursor-default">
+            <>
                 <Flag country={props.name} />
                 <div className="text-center font-sans text-md sm:text-2xl my-auto grow">{props.name}</div>
                 <Score goals={props.goals} />
-              </div>  
-          }
-          
-        </>
+            </>   
+          } 
+        </div>
     )
 }
 
