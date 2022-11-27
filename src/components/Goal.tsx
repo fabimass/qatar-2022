@@ -1,7 +1,7 @@
 import Ball from './Ball'
 
 interface GoalInterface{
-    minute: number,
+    minute: string,
     author: string,
     reverse: boolean
 }
