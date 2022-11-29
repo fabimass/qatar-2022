@@ -29,15 +29,21 @@ const Match = (props: MatchInterface) => {
                     </div>)
             break
         case "vertical-left":
-            block = (<div className="border-solid border-2 border-red-300">
+            block = (<div className="flex flex-col border-solid border-2 border-red-300 h-28">
+                        <div className='h-3'></div>
                         <Team name={props.team_1} goals={props.team_1_goals} reverse={false} oneline={false}/>
+                        <div className='grow'></div>
                         <Team name={props.team_2} goals={props.team_2_goals} reverse={false} oneline={false}/>
+                        <div className='h-3'></div>
                     </div>)
             break
         case "vertical-right":
-            block = (<div className="border-solid border-2 border-red-300">
+            block = (<div className="flex flex-col border-solid border-2 border-red-300 h-28">
+                        <div className='h-3'></div>
                         <Team name={props.team_1} goals={props.team_1_goals} reverse={true} oneline={false}/>
+                        <div className='grow'></div>
                         <Team name={props.team_2} goals={props.team_2_goals} reverse={true} oneline={false}/>
+                        <div className='h-3'></div>
                     </div>)
             break
         default:

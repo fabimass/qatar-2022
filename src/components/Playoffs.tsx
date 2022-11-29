@@ -11,7 +11,7 @@ interface PlayoffsInterface{
           team_2_goals: number | null,
           goals: Array<{
             order: number,
-            minute: number,
+            minute: string,
             author: string,
             team: number
           }>,
@@ -23,11 +23,11 @@ interface PlayoffsInterface{
 // This component will manage the playoffs for big screens
 const Playoffs = (props: PlayoffsInterface) => {
 
-    console.log(props.groups.filter(item => item.name === "Round of 16"))
     return (
         <div className="flex">
             <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(0,4)} aligned={"vertical-left"} />
-            <div className="grow">test</div>
+            
+            <div className="grow">{"test"}</div>
             <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(4,8)} aligned={"vertical-right"} />
         </div>
     )

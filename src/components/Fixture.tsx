@@ -842,9 +842,9 @@ const Fixture = {
             "matches": [
                 {
                     "order":1,
-                    "team_1":"-",
+                    "team_1":"Netherlands",
                     "team_1_goals":null,
-                    "team_2":"-",
+                    "team_2":"United States",
                     "team_2_goals":null,
                     "goals":[],
                     "photo":""

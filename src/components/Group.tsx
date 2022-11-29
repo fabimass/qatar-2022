@@ -10,7 +10,7 @@ interface GroupInterface{
       team_2_goals: number | null,
       goals: Array<{
         order: number,
-        minute: number,
+        minute: string,
         author: string,
         team: number
       }>,
