@@ -29,7 +29,7 @@ const Playoffs = (props: PlayoffsInterface) => {
             <PlayoffColumn matches={props.groups.filter(item => item.name === "Quarterfinals")[0].matches.slice(0,2)} inverted={false} />
             
             <div className="grow">{"test"}</div>
-            <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(4,8)} inverted={true} />
+            <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(4,8)} inverted={false} />
         </div>
     )
 }
