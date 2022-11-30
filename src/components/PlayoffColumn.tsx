@@ -16,14 +16,15 @@ interface PlayoffColumnInterface{
         }>,
         photo: string
       }>,
-    aligned: string
+    inverted: boolean
 }
 
 // This component represents a column on the left side of the playoffs chart
 const PlayoffColumnLeft = (props: PlayoffColumnInterface) => {
 
   return <>
-              { props.matches.map( match => <div className='flex'>
+              { props.matches.map( match => 
+                  <div className='flex'>
                     <div className='grow'>
                       <Match key={match.order} 
                         team_1={match.team_1}
@@ -32,11 +33,13 @@ const PlayoffColumnLeft = (props: PlayoffColumnInterface) => {
                         team_2_goals={match.team_2_goals}
                         photo={match.photo}
                         goals={match.goals}
-                        aligned={props.aligned}
+                        inline={false}
+                        inverted={false}
                         />
                     </div>
                     { (match.order % 2 === 0) ? <Connector upper={false} left={true}/> : <Connector upper={true} left={true}/> }
-                  </div> ) }
+                  </div> 
+                  ) }
         </>
 }
 
@@ -44,7 +47,8 @@ const PlayoffColumnLeft = (props: PlayoffColumnInterface) => {
 const PlayoffColumnRight = (props: PlayoffColumnInterface) => {
 
   return <>
-              { props.matches.map( match => <div className='flex'>
+              { props.matches.map( match => 
+                  <div className='flex'>
                     { (match.order % 2 === 0) ? <Connector upper={false} left={false}/> : <Connector upper={true} left={false}/> }
                     <div className='grow'>
                       <Match key={match.order} 
@@ -54,19 +58,21 @@ const PlayoffColumnRight = (props: PlayoffColumnInterface) => {
                         team_2_goals={match.team_2_goals}
                         photo={match.photo}
                         goals={match.goals}
-                        aligned={props.aligned}
+                        inline={false}
+                        inverted={false}
                         />
                     </div>
-                  </div> ) }
+                  </div> 
+                  ) }
         </>
 }
 
 const PlayoffColumn = (props: PlayoffColumnInterface) => {
 
     return <div className='min-w-[400px]'>
-            { (props.aligned === 'vertical-left')
-                  ? <PlayoffColumnLeft {...props} />
-                  : <PlayoffColumnRight {...props} />
+            { (props.inverted === true)
+                  ? <PlayoffColumnRight {...props} />
+                  : <PlayoffColumnLeft {...props} />
             }
             </div>
 }

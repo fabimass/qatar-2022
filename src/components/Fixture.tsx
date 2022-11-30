@@ -915,7 +915,7 @@ const Fixture = {
             ]
         },
         {
-            "name":"Round of 8",
+            "name":"Quarterfinals",
             "matches": [
                 {
                     "order":1,
