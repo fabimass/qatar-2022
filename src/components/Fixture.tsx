@@ -15,7 +15,7 @@ const Fixture = {
                         {
                             "order": 1,
                             "minute": "16",
-                            "author": "Enner Valencia",
+                            "author": "Enner Valencia (P)",
                             "team": 2
                         },
                         {
@@ -108,20 +108,52 @@ const Fixture = {
                 {
                     "order":5,
                     "team_1":"Qatar",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"Netherlands",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "26",
+                            "author": "Cody Gakpo",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "49",
+                            "author": "Frenkie de Jong",
+                            "team": 2
+                        }
+                    ],
+                    "photo":"./photos/33.png"
                 },
                 {
                     "order":6,
                     "team_1":"Ecuador",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Senegal",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "44",
+                            "author": "Ismaila Sarr (P)",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "67",
+                            "author": "Moises Caicedo",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "70",
+                            "author": "Kalidou Koulibaly",
+                            "team": 2
+                        }
+                    ],
+                    "photo":"./photos/34.png"
                 }
             ]
         },
@@ -180,7 +212,7 @@ const Fixture = {
                         {
                             "order": 8,
                             "minute": "90+13",
-                            "author": "Mehdi Taremi",
+                            "author": "Mehdi Taremi (P)",
                             "team": 2
                         }
                     ],
@@ -202,7 +234,7 @@ const Fixture = {
                         {
                             "order": 2,
                             "minute": "82",
-                            "author": "Gareth Bale",
+                            "author": "Gareth Bale (P)",
                             "team": 2
                         }
                     ],
@@ -242,20 +274,46 @@ const Fixture = {
                 {
                     "order":5,
                     "team_1":"England",
-                    "team_1_goals":null,
+                    "team_1_goals":3,
                     "team_2":"Wales",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "50",
+                            "author": "Marcus Rashford",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "51",
+                            "author": "Phil Foden",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "68",
+                            "author": "Marcus Rashford",
+                            "team": 1
+                        }
+                    ],
+                    "photo":"./photos/35.png"
                 },
                 {
                     "order":6,
                     "team_1":"Iran",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"United States",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":1,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "38",
+                            "author": "Christian Pulisic",
+                            "team": 2
+                        }
+                    ],
+                    "photo":"./photos/36.png"
                 }
             ]
         },
@@ -272,7 +330,7 @@ const Fixture = {
                         {
                             "order": 1,
                             "minute": "10",
-                            "author": "Lionel Messi",
+                            "author": "Lionel Messi (P)",
                             "team": 1
                         },
                         {
@@ -346,20 +404,52 @@ const Fixture = {
                 {
                     "order":5,
                     "team_1":"Argentina",
-                    "team_1_goals":null,
+                    "team_1_goals":2,
                     "team_2":"Poland",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "46",
+                            "author": "Alexis Mac Allister",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "67",
+                            "author": "Julian Alvarez",
+                            "team": 1
+                        }
+                    ],
+                    "photo":"./photos/37.png"
                 },
                 {
                     "order":6,
                     "team_1":"Saudi Arabia",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Mexico",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "47",
+                            "author": "Henry Martin",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "52",
+                            "author": "Luis Chavez",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": "90+5",
+                            "author": "Salem Al-Dawsari",
+                            "team": 1
+                        }
+                    ],
+                    "photo":"./photos/38.png"
                 }
             ]
         },
@@ -462,20 +552,34 @@ const Fixture = {
                 {
                     "order":5,
                     "team_1":"Australia",
-                    "team_1_goals":null,
+                    "team_1_goals":1,
                     "team_2":"Denmark",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "60",
+                            "author": "Mathew Leckie",
+                            "team": 1
+                        }
+                    ],
+                    "photo":"./photos/39.png"
                 },
                 {
                     "order":6,
                     "team_1":"France",
-                    "team_1_goals":null,
+                    "team_1_goals":0,
                     "team_2":"Tunisia",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "team_2_goals":1,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "58",
+                            "author": "Wahbi Khazri",
+                            "team": 2
+                        }
+                    ],
+                    "photo":"./photos/40.png"
                 }
             ]
         },
