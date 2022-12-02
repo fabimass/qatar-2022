@@ -8,10 +8,10 @@ function App() {
   return (
     <>
       <Groups groups={Fixture["first-round"]}/>
-      <div className="block md:hidden">
+      <div className="block xl:hidden">
         <Groups groups={Fixture["playoffs"]}/>
       </div>
-      <div className="hidden md:block">
+      <div className="hidden xl:block">
         <Playoffs groups={Fixture["playoffs"]}/>
       </div>
     </>

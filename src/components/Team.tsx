@@ -18,13 +18,13 @@ const Team = (props: TeamInterface) => {
             ? 
             <>
                 <Score goals={props.goals} />
-                <div className="text-center font-sans text-md 2xl:text-xl my-auto grow">{props.name}</div>
+                <div className="text-center my-auto grow">{props.name}</div>
                 <Flag country={props.name} />
             </>   
             :
             <>
                 <Flag country={props.name} />
-                <div className="text-center font-sans text-md 2xl:text-xl my-auto grow">{props.name}</div>
+                <div className="text-center my-auto grow">{props.name}</div>
                 <Score goals={props.goals} />
             </>   
           } 

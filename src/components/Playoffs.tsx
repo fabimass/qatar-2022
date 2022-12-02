@@ -1,4 +1,5 @@
 import PlayoffColumn from './PlayoffColumn'
+import PlayoffCenter from './PlayoffCenter'
 
 interface PlayoffsInterface{
     groups: Array<{
@@ -24,12 +25,16 @@ interface PlayoffsInterface{
 const Playoffs = (props: PlayoffsInterface) => {
 
     return (
-        <div className="flex">
-            <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(0,4)} inverted={false} />
-            <PlayoffColumn matches={props.groups.filter(item => item.name === "Quarterfinals")[0].matches.slice(0,2)} inverted={false} />
-            
-            <div className="grow">{"test"}</div>
-            <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(4,8)} inverted={false} />
+        <div className="flex font-sans text-md">
+            <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(0,4)} round={1} inverted={false} />
+            <PlayoffColumn matches={props.groups.filter(item => item.name === "Quarterfinals")[0].matches.slice(0,2)} round={2} inverted={false} />
+           
+            <PlayoffCenter semi1={ props.groups.filter(item => item.name === "Semifinals")[0].matches[0] }
+                           semi2={ props.groups.filter(item => item.name === "Semifinals")[0].matches[1] }
+                           third={ props.groups.filter(item => item.name === "Third Place")[0].matches[0] }
+                           final={ props.groups.filter(item => item.name === "Final")[0].matches[0] } />
+            <PlayoffColumn matches={props.groups.filter(item => item.name === "Quarterfinals")[0].matches.slice(2,4)} round={2} inverted={true} />
+            <PlayoffColumn matches={props.groups.filter(item => item.name === "Round of 16")[0].matches.slice(4,8)} round={1} inverted={true} />
         </div>
     )
 }

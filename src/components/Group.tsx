@@ -22,7 +22,7 @@ interface GroupInterface{
 const Group = (props: GroupInterface) => {
 
     return (
-        <div className="inline-block my-3 sm:m-4 p-0.5 sm:p-1 min-w-full sm:min-w-[550px] bg-slate-900/75 text-center text-white font-sans border-solid border-2 border-gray-300 rounded-2xl sm:rounded-3xl">
+        <div className="inline-block my-3 sm:m-4 p-0.5 sm:p-1 min-w-full sm:min-w-[550px] bg-slate-900/75 text-center text-white font-sans text-md 2xl:text-xl border-solid border-2 border-gray-300 rounded-2xl sm:rounded-3xl">
           <p>{props.name}</p>
           <hr className="my-2 border-gray-300 "></hr>
           <div>
@@ -33,7 +33,8 @@ const Group = (props: GroupInterface) => {
                                                  team_2_goals={match.team_2_goals}
                                                  photo={match.photo}
                                                  goals={match.goals}
-                                                 inline={true} /> ) }
+                                                 inline={true}
+                                                 floatingDetails={false} /> ) }
           </div>
         </div>
     )

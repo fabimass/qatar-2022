@@ -950,8 +950,21 @@ const Fixture = {
                     "team_1_goals":null,
                     "team_2":"United States",
                     "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": 80,
+                            "author": "Rafael Leao",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": 89,
+                            "author": "Osman Bukari",
+                            "team": 2
+                        }
+                    ],
+                    "photo":"./photos/4.png"
                 },
                 {
                     "order":2,
@@ -960,7 +973,7 @@ const Fixture = {
                     "team_2":"-",
                     "team_2_goals":null,
                     "goals":[],
-                    "photo":""
+                    "photo":"./photos/4.png"
                 },
                 {
                     "order":3,
@@ -987,7 +1000,7 @@ const Fixture = {
                     "team_2":"-",
                     "team_2_goals":null,
                     "goals":[],
-                    "photo":""
+                    "photo":"./photos/4.png"
                 },
                 {
                     "order":6,

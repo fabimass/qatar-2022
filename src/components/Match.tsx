@@ -14,7 +14,9 @@ interface MatchInterface{
     }>,
     photo: string,
     inline: boolean,
-    inverted?: boolean
+    inverted?: boolean,
+    floatingDetails: boolean,
+    invertedDetails?: boolean
 }
 
 const MatchInline = (props: MatchInterface) => {
@@ -27,7 +29,7 @@ const MatchInline = (props: MatchInterface) => {
 
 const MatchLeft = (props: MatchInterface) => {
 
-    return <div className="flex flex-col border-solid border-2 border-red-300 h-28">
+    return <div className="flex flex-col h-28">
             <div className='h-3'></div>
             <Team name={props.team_1} goals={props.team_1_goals} reverse={false} oneline={false}/>
             <div className='grow'></div>
@@ -38,7 +40,7 @@ const MatchLeft = (props: MatchInterface) => {
 
 const MatchRight = (props: MatchInterface) => {
 
-    return <div className="flex flex-col border-solid border-2 border-red-300 h-28">
+    return <div className="flex flex-col h-28">
             <div className='h-3'></div>
             <Team name={props.team_1} goals={props.team_1_goals} reverse={true} oneline={false}/>
             <div className='grow'></div>
@@ -56,7 +58,7 @@ const Match = (props: MatchInterface) => {
                 ? <MatchInline {...props}/>
                 : (props.inverted === true) ? <MatchRight {...props}/> : <MatchLeft {...props}/>
             }    
-            <Details photo={props.photo} goals={props.goals} />
+            <Details photo={props.photo} goals={props.goals} floating={props.floatingDetails} inverted={props.invertedDetails} />
         </div>
     )
 }

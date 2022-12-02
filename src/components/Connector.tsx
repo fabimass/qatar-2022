@@ -7,19 +7,21 @@ interface ConnectorInterface{
 const ConnectorRight = () => {
 
     return <div className="flex w-2/12">
+            <div className="w-1/2">
+                <ConnectorSingle />
+            </div>
             <div className="w-1/2 flex flex-col">
                 <div className="h-14"></div>
-                <div className="grow border-b-2 border-l-2 border-t-2 border-red-500"></div>
+                <div className="grow border-b-4 border-l-4 border-t-4 border-gray-300"></div>
                 <div className="h-14"></div>
             </div>
-            <div className="w-1/2"></div>
            </div>
 }
 
 const ConnectorSingle = () => {
 
     return <div className="h-[100%] flex flex-col">
-                <div className="h-1/2 border-b-2 border-red-500"></div>
+                <div className="h-1/2 border-b-4 border-gray-300"></div>
                 <div className="h-1/2"></div>
            </div>
 }
@@ -29,7 +31,7 @@ const ConnectorLeft = () => {
     return <div className="flex w-2/12">
             <div className="w-1/2 flex flex-col">
                 <div className="h-14"></div>
-                <div className="grow border-b-2 border-r-2 border-t-2 border-red-500"></div>
+                <div className="grow border-b-4 border-r-4 border-t-4 border-gray-300"></div>
                 <div className="h-14"></div>
             </div>
             <div className="w-1/2">
