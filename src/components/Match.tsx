@@ -1,6 +1,13 @@
 import Team from './Team'
 import Details from './Details'
 
+interface goalData{
+    order: number,
+    minute: string,
+    author: string,
+    team: number
+}
+
 interface MatchInterface{
     team_1: string,
     team_1_goals: number | null,

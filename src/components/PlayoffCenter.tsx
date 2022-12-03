@@ -1,4 +1,5 @@
 import Match from './Match'
+import Connector from './Connector'
 
 type goalData = {
     order: number,
@@ -40,10 +41,7 @@ const Final = (props: matchData) => {
                 floatingDetails={true} />
         </div>
         <div className='grow'>
-            <div className="h-[100%] flex">
-                <div className="w-1/2 border-r-4 border-gray-300"></div>
-                <div className="w-1/2"></div>
-           </div> 
+            <Connector inverted={true} />
         </div>
     </>
 }
@@ -64,7 +62,6 @@ const ThirdPlace = (props: matchData) => {
                 floatingDetails={true}
                 invertedDetails={true} />
         </div>
-        
         <div className='grow'></div>
     </>
 }
@@ -107,23 +104,19 @@ const Semi2 = (props: matchData) => {
 // This component represents the center of the playoffs
 const PlayoffCenter = (props: PlayoffCenterInterface) => {
 
-    return <div className="grow flex flex-col">
+    return (
+        <div className="grow flex flex-col">
             <Final {...props.final} />
             <div className='flex'>
                 <Semi1 {...props.semi1} />
                 <div className='grow'>
-                    <div className="h-[100%] flex flex-col">
-                        <div className="h-1/2 flex">
-                            <div className="w-1/2 border-r-4 border-b-4 border-gray-300"></div>
-                            <div className="w-1/2 border-b-4 border-gray-300"></div>
-                        </div> 
-                    <div className="h-1/2"></div>
-                    </div>
+                    <Connector tshape={true} inverted={false} />
                 </div>
                 <Semi2 {...props.semi2} />
             </div>
             <ThirdPlace {...props.third} />
-           </div>
+        </div>
+    )
 }
 
 export default PlayoffCenter
