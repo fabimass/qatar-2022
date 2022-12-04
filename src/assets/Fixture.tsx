@@ -3,14 +3,14 @@ const Fixture = {
 
     "first-round": [
         {
-            "name":"Group A",
+            "name": "Group A",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"Qatar",
-                    "team_1_goals":0,
-                    "team_2":"Ecuador",
-                    "team_2_goals":2,
+                    "order": 1,
+                    "team_1": "Qatar",
+                    "team_1_goals": 0,
+                    "team_2": "Ecuador",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -25,14 +25,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/1.png"
+                    "photo": "./photos/1.png"
                 },
                 {
-                    "order":2,
-                    "team_1":"Senegal",
-                    "team_1_goals":0,
-                    "team_2":"Netherlands",
-                    "team_2_goals":2,
+                    "order": 2,
+                    "team_1": "Senegal",
+                    "team_1_goals": 0,
+                    "team_2": "Netherlands",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -47,14 +47,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/3.png"
+                    "photo": "./photos/3.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Qatar",
-                    "team_1_goals":1,
-                    "team_2":"Senegal",
-                    "team_2_goals":3,
+                    "order": 3,
+                    "team_1": "Qatar",
+                    "team_1_goals": 1,
+                    "team_2": "Senegal",
+                    "team_2_goals": 3,
                     "goals":[
                         {
                             "order": 1,
@@ -81,14 +81,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/18.png"
+                    "photo": "./photos/18.png"
                 },
                 {
-                    "order":4,
-                    "team_1":"Ecuador",
-                    "team_1_goals":1,
-                    "team_2":"Netherlands",
-                    "team_2_goals":1,
+                    "order": 4,
+                    "team_1": "Ecuador",
+                    "team_1_goals": 1,
+                    "team_2": "Netherlands",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
@@ -103,14 +103,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/19.png"
+                    "photo": "./photos/19.png"
                 },
                 {
-                    "order":5,
-                    "team_1":"Qatar",
-                    "team_1_goals":0,
-                    "team_2":"Netherlands",
-                    "team_2_goals":2,
+                    "order": 5,
+                    "team_1": "Qatar",
+                    "team_1_goals": 0,
+                    "team_2": "Netherlands",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -125,14 +125,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/33.png"
+                    "photo": "./photos/33.png"
                 },
                 {
-                    "order":6,
-                    "team_1":"Ecuador",
-                    "team_1_goals":1,
-                    "team_2":"Senegal",
-                    "team_2_goals":2,
+                    "order": 6,
+                    "team_1": "Ecuador",
+                    "team_1_goals": 1,
+                    "team_2": "Senegal",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -153,19 +153,19 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/34.png"
+                    "photo": "./photos/34.png"
                 }
             ]
         },
         {
-            "name":"Group B",
+            "name": "Group B",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"England",
-                    "team_1_goals":6,
-                    "team_2":"Iran",
-                    "team_2_goals":2,
+                    "order": 1,
+                    "team_1": "England",
+                    "team_1_goals": 6,
+                    "team_2": "Iran",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -216,14 +216,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/2.png"
+                    "photo": "./photos/2.png"
                 },
                 {
-                    "order":2,
-                    "team_1":"United States",
-                    "team_1_goals":1,
-                    "team_2":"Wales",
-                    "team_2_goals":1,
+                    "order": 2,
+                    "team_1": "United States",
+                    "team_1_goals": 1,
+                    "team_2": "Wales",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
@@ -238,14 +238,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/4.png"
+                    "photo": "./photos/4.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Iran",
-                    "team_1_goals":2,
-                    "team_2":"Wales",
-                    "team_2_goals":0,
+                    "order": 3,
+                    "team_1": "Iran",
+                    "team_1_goals": 2,
+                    "team_2": "Wales",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
@@ -260,23 +260,23 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/17.png"
+                    "photo": "./photos/17.png"
                 },
                 {
-                    "order":4,
-                    "team_1":"England",
-                    "team_1_goals":0,
-                    "team_2":"United States",
-                    "team_2_goals":0,
+                    "order": 4,
+                    "team_1": "England",
+                    "team_1_goals": 0,
+                    "team_2": "United States",
+                    "team_2_goals": 0,
                     "goals":[],
-                    "photo":"./photos/20.png"
+                    "photo": "./photos/20.png"
                 },
                 {
-                    "order":5,
-                    "team_1":"England",
-                    "team_1_goals":3,
-                    "team_2":"Wales",
-                    "team_2_goals":0,
+                    "order": 5,
+                    "team_1": "England",
+                    "team_1_goals": 3,
+                    "team_2": "Wales",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
@@ -297,14 +297,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/35.png"
+                    "photo": "./photos/35.png"
                 },
                 {
-                    "order":6,
-                    "team_1":"Iran",
-                    "team_1_goals":0,
-                    "team_2":"United States",
-                    "team_2_goals":1,
+                    "order": 6,
+                    "team_1": "Iran",
+                    "team_1_goals": 0,
+                    "team_2": "United States",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
@@ -313,19 +313,19 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/36.png"
+                    "photo": "./photos/36.png"
                 }
             ]
         },
         {
-            "name":"Group C",
+            "name": "Group C",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"Argentina",
-                    "team_1_goals":1,
-                    "team_2":"Saudi Arabia",
-                    "team_2_goals":2,
+                    "order": 1,
+                    "team_1": "Argentina",
+                    "team_1_goals": 1,
+                    "team_2": "Saudi Arabia",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -346,23 +346,23 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/5.png"
+                    "photo": "./photos/5.png"
                 },
                 {
-                    "order":2,
-                    "team_1":"Mexico",
-                    "team_1_goals":0,
-                    "team_2":"Poland",
-                    "team_2_goals":0,
+                    "order": 2,
+                    "team_1": "Mexico",
+                    "team_1_goals": 0,
+                    "team_2": "Poland",
+                    "team_2_goals": 0,
                     "goals":[],
-                    "photo":"./photos/7.png"
+                    "photo": "./photos/7.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Saudi Arabia",
-                    "team_1_goals":0,
-                    "team_2":"Poland",
-                    "team_2_goals":2,
+                    "order": 3,
+                    "team_1": "Saudi Arabia",
+                    "team_1_goals": 0,
+                    "team_2": "Poland",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -377,14 +377,14 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/22.png"
+                    "photo": "./photos/22.png"
                 },
                 {
-                    "order":4,
-                    "team_1":"Argentina",
-                    "team_1_goals":2,
-                    "team_2":"Mexico",
-                    "team_2_goals":0,
+                    "order": 4,
+                    "team_1": "Argentina",
+                    "team_1_goals": 2,
+                    "team_2": "Mexico",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
@@ -399,14 +399,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/24.png"
+                    "photo": "./photos/24.png"
                 },
                 {
-                    "order":5,
-                    "team_1":"Argentina",
-                    "team_1_goals":2,
-                    "team_2":"Poland",
-                    "team_2_goals":0,
+                    "order": 5,
+                    "team_1": "Argentina",
+                    "team_1_goals": 2,
+                    "team_2": "Poland",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
@@ -421,14 +421,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/37.png"
+                    "photo": "./photos/39.png"
                 },
                 {
-                    "order":6,
-                    "team_1":"Saudi Arabia",
-                    "team_1_goals":1,
-                    "team_2":"Mexico",
-                    "team_2_goals":2,
+                    "order": 6,
+                    "team_1": "Saudi Arabia",
+                    "team_1_goals": 1,
+                    "team_2": "Mexico",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
@@ -449,28 +449,28 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/38.png"
+                    "photo": "./photos/40.png"
                 }
             ]
         },
         {
-            "name":"Group D",
+            "name": "Group D",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"Denmark",
-                    "team_1_goals":0,
-                    "team_2":"Tunisia",
-                    "team_2_goals":0,
+                    "order": 1,
+                    "team_1": "Denmark",
+                    "team_1_goals": 0,
+                    "team_2": "Tunisia",
+                    "team_2_goals": 0,
                     "goals":[],
-                    "photo":"./photos/6.png"
+                    "photo": "./photos/6.png"
                 },
                 {
-                    "order":2,
-                    "team_1":"France",
-                    "team_1_goals":4,
-                    "team_2":"Australia",
-                    "team_2_goals":1,
+                    "order": 2,
+                    "team_1": "France",
+                    "team_1_goals": 4,
+                    "team_2": "Australia",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
@@ -503,14 +503,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/8.png"
+                    "photo": "./photos/8.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Australia",
-                    "team_1_goals":1,
-                    "team_2":"Tunisia",
-                    "team_2_goals":0,
+                    "order": 3,
+                    "team_1": "Australia",
+                    "team_1_goals": 1,
+                    "team_2": "Tunisia",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
@@ -519,14 +519,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/21.png"
+                    "photo": "./photos/21.png"
                 },
                 {
-                    "order":4,
-                    "team_1":"France",
-                    "team_1_goals":2,
-                    "team_2":"Denmark",
-                    "team_2_goals":1,
+                    "order": 4,
+                    "team_1": "France",
+                    "team_1_goals": 2,
+                    "team_2": "Denmark",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
@@ -547,14 +547,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/23.png"
+                    "photo": "./photos/23.png"
                 },
                 {
-                    "order":5,
-                    "team_1":"Australia",
-                    "team_1_goals":1,
-                    "team_2":"Denmark",
-                    "team_2_goals":0,
+                    "order": 5,
+                    "team_1": "Australia",
+                    "team_1_goals": 1,
+                    "team_2": "Denmark",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
@@ -563,14 +563,14 @@ const Fixture = {
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/39.png"
+                    "photo": "./photos/37.png"
                 },
                 {
-                    "order":6,
-                    "team_1":"France",
-                    "team_1_goals":0,
-                    "team_2":"Tunisia",
-                    "team_2_goals":1,
+                    "order": 6,
+                    "team_1": "France",
+                    "team_1_goals": 0,
+                    "team_2": "Tunisia",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
@@ -579,547 +579,831 @@ const Fixture = {
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/40.png"
+                    "photo": "./photos/38.png"
                 }
             ]
         },
         {
-            "name":"Group E",
+            "name": "Group E",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"Germany",
-                    "team_1_goals":1,
-                    "team_2":"Japan",
-                    "team_2_goals":2,
+                    "order": 1,
+                    "team_1": "Germany",
+                    "team_1_goals": 1,
+                    "team_2": "Japan",
+                    "team_2_goals": 2,
                     "goals":[
                         {
                             "order": 1,
-                            "minute": 33,
-                            "author": "Ilkay Gundogan",
+                            "minute": "33",
+                            "author": "Ilkay Gundogan (P)",
                             "team": 1
                         },
                         {
                             "order": 2,
-                            "minute": 75,
+                            "minute": "75",
                             "author": "Ritsu Doan",
                             "team": 2
                         },
                         {
                             "order": 3,
-                            "minute": 83,
+                            "minute": "83",
                             "author": "Takuma Asano",
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/10.png"
+                    "photo": "./photos/10.png"
                 },
                 {
-                    "order":2,
-                    "team_1":"Spain",
-                    "team_1_goals":7,
-                    "team_2":"Costa Rica",
-                    "team_2_goals":0,
+                    "order": 2,
+                    "team_1": "Spain",
+                    "team_1_goals": 7,
+                    "team_2": "Costa Rica",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
-                            "minute": 11,
+                            "minute": "11",
                             "author": "Dani Olmo",
                             "team": 1
                         },
                         {
                             "order": 2,
-                            "minute": 21,
+                            "minute": "21",
                             "author": "Marco Asensio",
                             "team": 1
                         },
                         {
                             "order": 3,
-                            "minute": 31,
-                            "author": "Ferran Torres",
+                            "minute": "31",
+                            "author": "Ferran Torres (P)",
                             "team": 1
                         },
                         {
                             "order": 4,
-                            "minute": 54,
+                            "minute": "54",
                             "author": "Ferran Torres",
                             "team": 1
                         },
                         {
                             "order": 5,
-                            "minute": 74,
+                            "minute": "74",
                             "author": "Gavi",
                             "team": 1
                         },
                         {
                             "order": 6,
-                            "minute": 90,
+                            "minute": "90",
                             "author": "Carlos Soler",
                             "team": 1
                         },
                         {
                             "order": 7,
-                            "minute": 92,
+                            "minute": "90+2",
                             "author": "Alvaro Morata",
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/11.png"
+                    "photo": "./photos/11.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Costa Rica",
-                    "team_1_goals":null,
-                    "team_2":"Japan",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":4,
-                    "team_1":"Spain",
-                    "team_1_goals":null,
-                    "team_2":"Germany",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":5,
-                    "team_1":"Spain",
-                    "team_1_goals":null,
-                    "team_2":"Japan",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":6,
-                    "team_1":"Costa Rica",
-                    "team_1_goals":null,
-                    "team_2":"Germany",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                }
-            ]
-        },
-        {
-            "name":"Group F",
-            "matches": [
-                {
-                    "order":1,
-                    "team_1":"Morocco",
-                    "team_1_goals":0,
-                    "team_2":"Croatia",
-                    "team_2_goals":0,
-                    "goals":[],
-                    "photo":"./photos/9.png"
-                },
-                {
-                    "order":2,
-                    "team_1":"Belgium",
-                    "team_1_goals":1,
-                    "team_2":"Canada",
-                    "team_2_goals":0,
+                    "order": 3,
+                    "team_1": "Costa Rica",
+                    "team_1_goals": 1,
+                    "team_2": "Japan",
+                    "team_2_goals": 0,
                     "goals":[
                         {
                             "order": 1,
-                            "minute": 44,
-                            "author": "Michy Batshuayi",
+                            "minute": "81",
+                            "author": "Keysher Fuller",
                             "team": 1
                         }
                     ],
-                    "photo":"./photos/12.png"
+                    "photo": "./photos/25.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Belgium",
-                    "team_1_goals":null,
-                    "team_2":"Morocco",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":4,
-                    "team_1":"Canada",
-                    "team_1_goals":null,
-                    "team_2":"Croatia",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":5,
-                    "team_1":"Belgium",
-                    "team_1_goals":null,
-                    "team_2":"Croatia",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":6,
-                    "team_1":"Canada",
-                    "team_1_goals":null,
-                    "team_2":"Morocco",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                }
-            ]
-        },
-        {
-            "name":"Group G",
-            "matches": [
-                {
-                    "order":1,
-                    "team_1":"Switzerland",
-                    "team_1_goals":1,
-                    "team_2":"Cameroon",
-                    "team_2_goals":0,
+                    "order": 4,
+                    "team_1": "Spain",
+                    "team_1_goals": 1,
+                    "team_2": "Germany",
+                    "team_2_goals": 1,
                     "goals":[
                         {
                             "order": 1,
-                            "minute": 48,
-                            "author": "Breel Embolo",
-                            "team": 1
-                        }
-                    ],
-                    "photo":"./photos/13.png"
-                },
-                {
-                    "order":2,
-                    "team_1":"Brazil",
-                    "team_1_goals":2,
-                    "team_2":"Serbia",
-                    "team_2_goals":0,
-                    "goals":[
-                        {
-                            "order": 1,
-                            "minute": 62,
-                            "author": "Richarlison",
-                            "team": 1
-                        },
-                        {
-                            "order": 1,
-                            "minute": 73,
-                            "author": "Richarlison",
-                            "team": 1
-                        }
-                    ],
-                    "photo":"./photos/16.png"
-                },
-                {
-                    "order":3,
-                    "team_1":"Serbia",
-                    "team_1_goals":null,
-                    "team_2":"Cameroon",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":4,
-                    "team_1":"Brazil",
-                    "team_1_goals":null,
-                    "team_2":"Switzerland",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":5,
-                    "team_1":"Brazil",
-                    "team_1_goals":null,
-                    "team_2":"Cameroon",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                },
-                {
-                    "order":6,
-                    "team_1":"Serbia",
-                    "team_1_goals":null,
-                    "team_2":"Switzerland",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
-                }
-            ]
-        },
-        {
-            "name":"Group H",
-            "matches": [
-                {
-                    "order":1,
-                    "team_1":"Uruguay",
-                    "team_1_goals":0,
-                    "team_2":"South Korea",
-                    "team_2_goals":0,
-                    "goals":[],
-                    "photo":"./photos/14.png"
-                },
-                {
-                    "order":2,
-                    "team_1":"Portugal",
-                    "team_1_goals":3,
-                    "team_2":"Ghana",
-                    "team_2_goals":2,
-                    "goals":[
-                        {
-                            "order": 1,
-                            "minute": 65,
-                            "author": "Cristiano Ronaldo",
+                            "minute": "62",
+                            "author": "Alvaro Morata",
                             "team": 1
                         },
                         {
                             "order": 2,
-                            "minute": 73,
+                            "minute": "83",
+                            "author": "Niclas Fullkrug",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/28.png"
+                },
+                {
+                    "order": 5,
+                    "team_1": "Spain",
+                    "team_1_goals": 1,
+                    "team_2": "Japan",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "11",
+                            "author": "Alvaro Morata",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "48",
+                            "author": "Ritsu Doan",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "51",
+                            "author": "Ao Tanaka",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/43.png"
+                },
+                {
+                    "order": 6,
+                    "team_1": "Costa Rica",
+                    "team_1_goals": 2,
+                    "team_2": "Germany",
+                    "team_2_goals": 4,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "10",
+                            "author": "Serge Gnabry",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "58",
+                            "author": "Yeltsin Tejeda",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "70",
+                            "author": "Manuel Neuer (OG)",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": "73",
+                            "author": "Kai Havertz",
+                            "team": 2
+                        },
+                        {
+                            "order": 5,
+                            "minute": "85",
+                            "author": "Kai Havertz",
+                            "team": 2
+                        },
+                        {
+                            "order": 6,
+                            "minute": "89",
+                            "author": "Niclas Fullkrug",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/44.png"
+                }
+            ]
+        },
+        {
+            "name": "Group F",
+            "matches": [
+                {
+                    "order": 1,
+                    "team_1": "Morocco",
+                    "team_1_goals": 0,
+                    "team_2": "Croatia",
+                    "team_2_goals": 0,
+                    "goals":[],
+                    "photo": "./photos/9.png"
+                },
+                {
+                    "order": 2,
+                    "team_1": "Belgium",
+                    "team_1_goals": 1,
+                    "team_2": "Canada",
+                    "team_2_goals": 0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "44",
+                            "author": "Michy Batshuayi",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/12.png"
+                },
+                {
+                    "order": 3,
+                    "team_1": "Belgium",
+                    "team_1_goals": 0,
+                    "team_2": "Morocco",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "73",
+                            "author": "Romain Saiss",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "90+2",
+                            "author": "Zakaria Aboukhlal",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/26.png"
+                },
+                {
+                    "order": 4,
+                    "team_1": "Canada",
+                    "team_1_goals": 1,
+                    "team_2": "Croatia",
+                    "team_2_goals": 4,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "2",
+                            "author": "Alphonso Davies",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "36",
+                            "author": "Andrej Kramaric",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": "44",
+                            "author": "Marko Livaja",
+                            "team": 2
+                        },
+                        {
+                            "order": 4,
+                            "minute": "70",
+                            "author": "Andrej Kramaric",
+                            "team": 2
+                        },
+                        {
+                            "order": 5,
+                            "minute": "90+4",
+                            "author": "Lovro Majer",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/27.png"
+                },
+                {
+                    "order": 5,
+                    "team_1": "Belgium",
+                    "team_1_goals": 0,
+                    "team_2": "Croatia",
+                    "team_2_goals": 0,
+                    "goals":[],
+                    "photo": "./photos/41.png"
+                },
+                {
+                    "order": 6,
+                    "team_1": "Canada",
+                    "team_1_goals": 1,
+                    "team_2": "Morocco",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "4",
+                            "author": "Hakim Ziyech",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "23",
+                            "author": "Youssef En-Nesyri",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": "40",
+                            "author": "Nayef Aguerd (OG)",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/42.png"
+                }
+            ]
+        },
+        {
+            "name": "Group G",
+            "matches": [
+                {
+                    "order": 1,
+                    "team_1": "Switzerland",
+                    "team_1_goals": 1,
+                    "team_2": "Cameroon",
+                    "team_2_goals": 0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "48",
+                            "author": "Breel Embolo",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/13.png"
+                },
+                {
+                    "order": 2,
+                    "team_1": "Brazil",
+                    "team_1_goals": 2,
+                    "team_2": "Serbia",
+                    "team_2_goals": 0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "62",
+                            "author": "Richarlison",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "73",
+                            "author": "Richarlison",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/16.png"
+                },
+                {
+                    "order": 3,
+                    "team_1": "Serbia",
+                    "team_1_goals": 3,
+                    "team_2": "Cameroon",
+                    "team_2_goals": 3,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "29",
+                            "author": "Jean-Charles Castelletto",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "45+1",
+                            "author": "Strahinja Pavlovic",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "45+3",
+                            "author": "Sergej Milinkovic-Savic",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": "53",
+                            "author": "Aleksandar Mitrovic",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": "63",
+                            "author": "Vincent Aboubakar",
+                            "team": 2
+                        },
+                        {
+                            "order": 6,
+                            "minute": "66",
+                            "author": "Eric Choupo-Moting",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/29.png"
+                },
+                {
+                    "order": 4,
+                    "team_1": "Brazil",
+                    "team_1_goals": 1,
+                    "team_2": "Switzerland",
+                    "team_2_goals": 0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "83",
+                            "author": "Casemiro",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/31.png"
+                },
+                {
+                    "order": 5,
+                    "team_1": "Brazil",
+                    "team_1_goals": 0,
+                    "team_2": "Cameroon",
+                    "team_2_goals": 1,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "90+2",
+                            "author": "Vincent Aboubakar",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/47.png"
+                },
+                {
+                    "order": 6,
+                    "team_1": "Serbia",
+                    "team_1_goals": 2,
+                    "team_2": "Switzerland",
+                    "team_2_goals": 3,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "20",
+                            "author": "Xherdan Shaqiri",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "26",
+                            "author": "Aleksandar Mitrovic",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "35",
+                            "author": "Dusan Vlahovic",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": "44",
+                            "author": "Breel Embolo",
+                            "team": 2
+                        },
+                        {
+                            "order": 5,
+                            "minute": "48",
+                            "author": "Remo Freuler",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/48.png"
+                }
+            ]
+        },
+        {
+            "name": "Group H",
+            "matches": [
+                {
+                    "order": 1,
+                    "team_1": "Uruguay",
+                    "team_1_goals": 0,
+                    "team_2": "South Korea",
+                    "team_2_goals": 0,
+                    "goals":[],
+                    "photo": "./photos/14.png"
+                },
+                {
+                    "order": 2,
+                    "team_1": "Portugal",
+                    "team_1_goals": 3,
+                    "team_2": "Ghana",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "65",
+                            "author": "Cristiano Ronaldo (P)",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "73",
                             "author": "Andre Ayew",
                             "team": 2
                         },
                         {
                             "order": 3,
-                            "minute": 78,
+                            "minute": "78",
                             "author": "Joao Felix",
                             "team": 1
                         },
                         {
                             "order": 4,
-                            "minute": 80,
+                            "minute": "80",
                             "author": "Rafael Leao",
                             "team": 1
                         },
                         {
                             "order": 5,
-                            "minute": 89,
+                            "minute": "89",
                             "author": "Osman Bukari",
                             "team": 2
                         }
                     ],
-                    "photo":"./photos/15.png"
+                    "photo": "./photos/15.png"
                 },
                 {
-                    "order":3,
-                    "team_1":"Ghana",
-                    "team_1_goals":null,
-                    "team_2":"South Korea",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 3,
+                    "team_1": "Ghana",
+                    "team_1_goals": 3,
+                    "team_2": "South Korea",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "24",
+                            "author": "Mohamed Abdul Karim",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "34",
+                            "author": "Mohammed Kudus",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "58",
+                            "author": "Cho Gue-Sung",
+                            "team": 2
+                        },
+                        {
+                            "order": 4,
+                            "minute": "61",
+                            "author": "Cho Gue-Sung",
+                            "team": 2
+                        },
+                        {
+                            "order": 5,
+                            "minute": "68",
+                            "author": "Mohammed Kudus",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/30.png"
                 },
                 {
-                    "order":4,
-                    "team_1":"Portugal",
-                    "team_1_goals":null,
-                    "team_2":"Uruguay",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 4,
+                    "team_1": "Portugal",
+                    "team_1_goals": 2,
+                    "team_2": "Uruguay",
+                    "team_2_goals": 0,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "54",
+                            "author": "Bruno Fernandes",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "90+3",
+                            "author": "Bruno Fernandes (P)",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/32.png"
                 },
                 {
-                    "order":5,
-                    "team_1":"Portugal",
-                    "team_1_goals":null,
-                    "team_2":"South Korea",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 5,
+                    "team_1": "Portugal",
+                    "team_1_goals": 1,
+                    "team_2": "South Korea",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "5",
+                            "author": "Ricardo Horta",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "27",
+                            "author": "Kim Young-Gwon",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": "90+1",
+                            "author": "Hwang Hee-Chan",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/45.png"
                 },
                 {
-                    "order":6,
-                    "team_1":"Ghana",
-                    "team_1_goals":null,
-                    "team_2":"Uruguay",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 6,
+                    "team_1": "Ghana",
+                    "team_1_goals": 0,
+                    "team_2": "Uruguay",
+                    "team_2_goals": 2,
+                    "goals":[
+                        {
+                            "order": 1,
+                            "minute": "26",
+                            "author": "Giorgian De Arrascaeta",
+                            "team": 2
+                        },
+                        {
+                            "order": 2,
+                            "minute": "32",
+                            "author": "Giorgian De Arrascaeta",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/46.png"
                 }
             ]
         }
     ],
     "playoffs": [
         {
-            "name":"Round of 16",
+            "name": "Round of 16",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"Netherlands",
-                    "team_1_goals":null,
-                    "team_2":"United States",
-                    "team_2_goals":null,
-                    "goals":[
-                        {
-                            "order": 1,
-                            "minute": 80,
-                            "author": "Rafael Leao",
-                            "team": 1
-                        },
-                        {
-                            "order": 2,
-                            "minute": 89,
-                            "author": "Osman Bukari",
-                            "team": 2
-                        }
-                    ],
-                    "photo":"./photos/4.png"
+                    "order": 1,
+                    "team_1": "Netherlands",
+                    "team_1_goals": null,
+                    "team_2": "United States",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":2,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":"./photos/4.png"
+                    "order": 2,
+                    "team_1": "Argentina",
+                    "team_1_goals": null,
+                    "team_2": "Australia",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":3,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 3,
+                    "team_1": "Japan",
+                    "team_1_goals": null,
+                    "team_2": "Croatia",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":4,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 4,
+                    "team_1": "Brazil",
+                    "team_1_goals": null,
+                    "team_2": "South Korea",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":5,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":"./photos/4.png"
+                    "order": 5,
+                    "team_1": "France",
+                    "team_1_goals": null,
+                    "team_2": "Poland",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":6,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 6,
+                    "team_1": "England",
+                    "team_1_goals": null,
+                    "team_2": "Senegal",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":7,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 7,
+                    "team_1": "Morocco",
+                    "team_1_goals": null,
+                    "team_2": "Spain",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":8,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 8,
+                    "team_1": "Portugal",
+                    "team_1_goals": null,
+                    "team_2": "Switzerland",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 }
             ]
         },
         {
-            "name":"Quarterfinals",
+            "name": "Quarterfinals",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 1,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":2,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 2,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":3,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 3,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":4,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 4,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 }
             ]
         },
         {
-            "name":"Semifinals",
+            "name": "Semifinals",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 1,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 },
                 {
-                    "order":2,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 2,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 }
             ]
         },
         {
-            "name":"Third Place",
+            "name": "Third Place",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 1,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 }
             ]
         },
         {
-            "name":"Final",
+            "name": "Final",
             "matches": [
                 {
-                    "order":1,
-                    "team_1":"-",
-                    "team_1_goals":null,
-                    "team_2":"-",
-                    "team_2_goals":null,
-                    "goals":[],
-                    "photo":""
+                    "order": 1,
+                    "team_1": "-",
+                    "team_1_goals": null,
+                    "team_2": "-",
+                    "team_2_goals": null,
+                    "goals": [],
+                    "photo": ""
                 }
             ]
         }
