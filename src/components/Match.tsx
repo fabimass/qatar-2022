@@ -1,63 +1,48 @@
 import Team from './Team'
 import Details from './Details'
+import { MatchProps } from '../assets/Interfaces'
 
-interface goalData{
-    order: number,
-    minute: string,
-    author: string,
-    team: number
-}
+// The local team is on the left and the away team is on the right
+const MatchInline = (props: MatchProps) => {
 
-interface MatchInterface{
-    team_1: string,
-    team_1_goals: number | null,
-    team_2: string,
-    team_2_goals: number | null,
-    goals: Array<{
-        order: number,
-        minute: string,
-        author: string,
-        team: number
-    }>,
-    photo: string,
-    inline: boolean,
-    inverted?: boolean,
-    floatingDetails: boolean,
-    invertedDetails?: boolean
-}
-
-const MatchInline = (props: MatchInterface) => {
-
-    return <div className="flex">
+    return (
+        <div className="flex">
             <Team name={props.team_1} goals={props.team_1_goals} reverse={false} oneline={true}/>
             <Team name={props.team_2} goals={props.team_2_goals} reverse={true} oneline={true}/>
-           </div>
+        </div>
+    )
 }
 
-const MatchLeft = (props: MatchInterface) => {
+// The local team is above on the left and the away team below is on the left
+const MatchLeft = (props: MatchProps) => {
 
-    return <div className="flex flex-col h-28">
+    return (
+        <div className="flex flex-col h-28">
             <div className='h-3'></div>
             <Team name={props.team_1} goals={props.team_1_goals} reverse={false} oneline={false}/>
             <div className='grow'></div>
             <Team name={props.team_2} goals={props.team_2_goals} reverse={false} oneline={false}/>
             <div className='h-3'></div>
-           </div>
+        </div>
+    )
 }
 
-const MatchRight = (props: MatchInterface) => {
+// The local team is above on the right and the away team below is on the right
+const MatchRight = (props: MatchProps) => {
 
-    return <div className="flex flex-col h-28">
+    return (
+        <div className="flex flex-col h-28">
             <div className='h-3'></div>
             <Team name={props.team_1} goals={props.team_1_goals} reverse={true} oneline={false}/>
             <div className='grow'></div>
             <Team name={props.team_2} goals={props.team_2_goals} reverse={true} oneline={false}/>
             <div className='h-3'></div>
-           </div>
+        </div>
+    )
 }
 
 // This component represents a single match
-const Match = (props: MatchInterface) => {
+const Match = (props: MatchProps) => {
 
     return (
         <div className="group">
@@ -65,7 +50,7 @@ const Match = (props: MatchInterface) => {
                 ? <MatchInline {...props}/>
                 : (props.inverted === true) ? <MatchRight {...props}/> : <MatchLeft {...props}/>
             }    
-            <Details photo={props.photo} goals={props.goals} floating={props.floatingDetails} inverted={props.invertedDetails} />
+            <Details {...props} />
         </div>
     )
 }

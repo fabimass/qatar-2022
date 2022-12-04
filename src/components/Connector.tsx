@@ -1,4 +1,4 @@
-import { ConnectorProps } from "../assets/Interfaces"
+import { ConnectorProps } from '../assets/Interfaces'
 
 // This is just a single horizontal line
 const ConnectorSingle = () => {

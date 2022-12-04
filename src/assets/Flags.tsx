@@ -1,10 +1,6 @@
 
-interface FlagsInterface{
-    [key:string] : string
-}
-
 // Path to the flag icons
-const Flags: FlagsInterface = {
+const Flags = {
     "Argentina" : "./flags/Argentina.png",
     "Australia" : "./flags/Australia.png",
     "Belgium" : "./flags/Belgium.png",
