@@ -1262,10 +1262,14 @@ const Fixture = {
                 {
                     "order": 3,
                     "team_1": "Japan",
-                    "team_1_goals": null,
+                    "team_1_goals": 1,
                     "team_2": "Croatia",
-                    "team_2_goals": null,
+                    "team_2_goals": 1,
                     "goals": [],
+                    "penalties": {
+                        "team_1": 1,
+                        "team_2": 3
+                    },
                     "photo": ""
                 },
                 {

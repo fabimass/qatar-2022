@@ -6,6 +6,11 @@ export interface GoalProps{
     team: number                    // Team which scored
 }
 
+export interface PenaltyProps{
+    team_1: number | null           // Local team score in penalties stage
+    team_2: number | null           // Away team score in penalties stage
+}
+
 export interface MatchProps{
     order: number                   // Match order
     team_1: string                  // Local team
@@ -18,6 +23,7 @@ export interface MatchProps{
     inverted?: boolean              // Indicates if the match is in its normal position or the opposite
     floatingDetails?: boolean       // Indicates if the details will float on the screen or not
     invertedDetails?: boolean       // Indicates if the details are in their normal position or the opposite
+    penalties?: PenaltyProps        // Indicates the score if the match went to penalties stage
 }
 
 export interface TeamProps{
@@ -25,6 +31,7 @@ export interface TeamProps{
     goals: number | null            // Team score
     oneline: boolean                // Indicates if the team will be on the same line than its rival
     reverse: boolean                // Indicates if the team will be aligned to the left or to the right
+    penalties?: number | null       // Score if the match was resolved by penalties
 }
 
 export interface GroupProps{
