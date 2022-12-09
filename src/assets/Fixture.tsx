@@ -1244,20 +1244,64 @@ const Fixture = {
                 {
                     "order": 1,
                     "team_1": "Netherlands",
-                    "team_1_goals": null,
+                    "team_1_goals": 3,
                     "team_2": "United States",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 1,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "10",
+                            "author": "Memphis Depay",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "45+1",
+                            "author": "Daley Blind",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "76",
+                            "author": "Haji Wright",
+                            "team": 2
+                        },
+                        {
+                            "order": 4,
+                            "minute": "81",
+                            "author": "Denzel Dumfries",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/49.png"
                 },
                 {
                     "order": 2,
                     "team_1": "Argentina",
-                    "team_1_goals": null,
+                    "team_1_goals": 2,
                     "team_2": "Australia",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 1,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "35",
+                            "author": "Lionel Messi",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "57",
+                            "author": "Julian Alvarez",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "77",
+                            "author": "Enzo Fernandez (OG)",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/50.png"
                 },
                 {
                     "order": 3,
@@ -1265,57 +1309,192 @@ const Fixture = {
                     "team_1_goals": 1,
                     "team_2": "Croatia",
                     "team_2_goals": 1,
-                    "goals": [],
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "43",
+                            "author": "Daizen Maeda",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "55",
+                            "author": "Ivan Perisic",
+                            "team": 2
+                        }
+                    ],
                     "penalties": {
                         "team_1": 1,
                         "team_2": 3
                     },
-                    "photo": ""
+                    "photo": "./photos/51.png"
                 },
                 {
                     "order": 4,
                     "team_1": "Brazil",
-                    "team_1_goals": null,
+                    "team_1_goals": 4,
                     "team_2": "South Korea",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 1,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "7",
+                            "author": "Vinicius Junior",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "13",
+                            "author": "Neymar (P)",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "29",
+                            "author": "Richarlison",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": "36",
+                            "author": "Lucas Paqueta",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": "76",
+                            "author": "Paik Seung-Ho",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/52.png"
                 },
                 {
                     "order": 5,
                     "team_1": "France",
-                    "team_1_goals": null,
+                    "team_1_goals": 3,
                     "team_2": "Poland",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 1,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "44",
+                            "author": "Olivier Giroud",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "74",
+                            "author": "Kylian Mbappe",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "90+1",
+                            "author": "Kylian Mbappe",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": "90+9",
+                            "author": "Robert Lewandowski (P)",
+                            "team": 2
+                        }
+                    ],
+                    "photo": "./photos/53.png"
                 },
                 {
                     "order": 6,
                     "team_1": "England",
-                    "team_1_goals": null,
+                    "team_1_goals": 3,
                     "team_2": "Senegal",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 0,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "39",
+                            "author": "Jordan Henderson",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "45+3",
+                            "author": "Harry Kane",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "57",
+                            "author": "Bukayo Saka",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/54.png"
                 },
                 {
                     "order": 7,
                     "team_1": "Morocco",
-                    "team_1_goals": null,
+                    "team_1_goals": 0,
                     "team_2": "Spain",
-                    "team_2_goals": null,
+                    "team_2_goals": 0,
                     "goals": [],
-                    "photo": ""
+                    "penalties": {
+                        "team_1": 3,
+                        "team_2": 0
+                    },
+                    "photo": "./photos/55.png"
                 },
                 {
                     "order": 8,
                     "team_1": "Portugal",
-                    "team_1_goals": null,
+                    "team_1_goals": 6,
                     "team_2": "Switzerland",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 1,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "17",
+                            "author": "Goncalo Ramos",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "33",
+                            "author": "Pepe",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "51",
+                            "author": "Goncalo Ramos",
+                            "team": 1
+                        },
+                        {
+                            "order": 4,
+                            "minute": "55",
+                            "author": "Raphael Guerreiro",
+                            "team": 1
+                        },
+                        {
+                            "order": 5,
+                            "minute": "58",
+                            "author": "Manuel Akanji",
+                            "team": 2
+                        },
+                        {
+                            "order": 6,
+                            "minute": "67",
+                            "author": "Goncalo Ramos",
+                            "team": 1
+                        },
+                        {
+                            "order": 7,
+                            "minute": "90+2",
+                            "author": "Rafael Leao",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/56.png"
                 }
             ]
         },
