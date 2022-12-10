@@ -36,7 +36,7 @@ const ThirdPlace = (props: MatchProps) => {
 const Semi1 = (props: MatchProps) => {
 
     return <>
-        <div className='w-1/4 relative inline-block p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
+        <div className='w-[200px] relative inline-block p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
             <Match {...props}
                    inline={false}
                    inverted={false}
@@ -48,7 +48,7 @@ const Semi1 = (props: MatchProps) => {
 const Semi2 = (props: MatchProps) => {
 
     return <>
-        <div className='w-1/4 relative inline-block p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
+        <div className='w-[200px] relative inline-block p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
             <Match {...props}
                    inline={false}
                    inverted={true}
