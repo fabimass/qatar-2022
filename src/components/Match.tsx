@@ -8,7 +8,7 @@ const MatchInline = (props: MatchProps) => {
     return (
         <div className="flex">
             <Team name={props.team_1} goals={props.team_1_goals} reverse={false} oneline={true} penalties={props.penalties?.team_1}/>
-            <Team name={props.team_2} goals={props.team_2_goals} reverse={true} oneline={true} penalties={props.penalties?.team_1}/>
+            <Team name={props.team_2} goals={props.team_2_goals} reverse={true} oneline={true} penalties={props.penalties?.team_2}/>
         </div>
     )
 }
