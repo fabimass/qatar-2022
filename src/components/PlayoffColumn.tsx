@@ -102,7 +102,7 @@ const PlayoffColumnRight = (props: PlayoffColumnProps) => {
 const PlayoffColumn = (props: PlayoffColumnProps) => {
 
     return (
-      <div className='w-[250px]'>
+      <div className='w-[260px]'>
             { (props.inverted === true)
                   ? <PlayoffColumnRight matches={props.matches} margins={props.margins} />
                   : <PlayoffColumnLeft matches={props.matches} margins={props.margins} />

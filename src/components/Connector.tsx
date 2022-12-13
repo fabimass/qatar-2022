@@ -26,7 +26,7 @@ const ConnectorSingleInv = () => {
 const ConnectorRight = () => {
 
     return (
-        <div className="flex w-2/12">
+        <div className="flex w-[12%]">
             <div className="w-1/2">
                 <ConnectorSingle />
             </div>
@@ -43,7 +43,7 @@ const ConnectorRight = () => {
 const ConnectorLeft = () => {
 
     return (
-        <div className="flex w-2/12">
+        <div className="flex w-[12%]">
             <div className="w-1/2 flex flex-col">
                 <div className="h-14"></div>
                 <div className="grow border-b-4 border-r-4 border-t-4 border-gray-300"></div>
