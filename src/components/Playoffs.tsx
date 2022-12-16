@@ -16,11 +16,11 @@ const Playoffs = (props: GroupsProps) => {
 
     return (
         <div className="flex font-sans text-md">
-            <PlayoffColumn matches={column1A} margins={{ margin1:50, margin2:50, margin3:30}} inverted={false} />
-            <PlayoffColumn matches={column2A} margins={{ margin1:120, margin2:0, margin3:215}} inverted={false} />
+            <PlayoffColumn matches={column1A} margins={{ margin1:40, margin2:50, margin3:12}} inverted={false} />
+            <PlayoffColumn matches={column2A} margins={{ margin1:104, margin2:0, margin3:190}} inverted={false} />
             <PlayoffCenter matches={columnCenter} />
-            <PlayoffColumn matches={column2B} margins={{ margin1:120, margin2:0, margin3:215}} inverted={true} />
-            <PlayoffColumn matches={column1B} margins={{ margin1:50, margin2:50, margin3:30}} inverted={true} />
+            <PlayoffColumn matches={column2B} margins={{ margin1:104, margin2:0, margin3:190}} inverted={true} />
+            <PlayoffColumn matches={column1B} margins={{ margin1:40, margin2:50, margin3:12}} inverted={true} />
         </div>
     )
 }

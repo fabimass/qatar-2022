@@ -22,7 +22,13 @@ export interface MatchProps{
     inline?: boolean                // Indicates if the match is going to be presented inline or vertical
     inverted?: boolean              // Indicates if the match is in its normal position or the opposite
     floatingDetails?: boolean       // Indicates if the details will float on the screen or not
-    invertedDetails?: boolean       // Indicates if the details are in their normal position or the opposite
+    floatingDetailsDirection?: 
+        "right-down" 
+        | "right-up" 
+        | "left-down" 
+        | "left-up" 
+        | "center-down" 
+        | "center-up"               // Indicates how the floating details will appear
     penalties?: PenaltyProps        // Indicates the score if the match went to penalties stage
 }
 

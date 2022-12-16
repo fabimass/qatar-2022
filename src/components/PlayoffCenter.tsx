@@ -6,11 +6,12 @@ const Final = (props: MatchProps) => {
 
     return <>
         <div className='grow'></div>
-        <p className='w-20 mx-auto bg-slate-900/75 text-center text-white border-solid border-t-2 border-r-2 border-l-2 border-gray-300 rounded-sm'>Final</p>
-        <div className='relative inline-block min-w-[380px] max-w-[500px] mx-auto p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-full'>
+        <p className='w-20 mx-auto bg-slate-900/75 text-center text-white border-solid border-t-2 border-r-2 border-l-2 border-gray-300'>Final</p>
+        <div className='relative inline-block min-w-[380px] max-w-[500px] mx-auto p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-full'>
             <Match {...props}
                    inline={true}
-                   floatingDetails={true} />
+                   floatingDetails={true}
+                   floatingDetailsDirection="center-down" />
         </div>
         <div className='grow'>
             <Connector inverted={true} />
@@ -22,13 +23,13 @@ const ThirdPlace = (props: MatchProps) => {
 
     return <>
         <div className='grow'></div>
-        <p className='w-28 mx-auto bg-slate-900/75 text-center text-white border-solid border-t-2 border-r-2 border-l-2 border-gray-300 rounded-sm'>Third Place</p>
-        <div className='relative inline-block mx-4 p-1 bg-slate-900/75 text-center text-white font-sans border-solid border-2 border-gray-300 rounded-3xl'>
+        <div className='relative inline-block min-w-[380px] max-w-[500px] mx-auto p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white font-sans border-solid border-2 border-gray-300 rounded-full'>
             <Match {...props}
                    inline={true}
                    floatingDetails={true}
-                   invertedDetails={true} />
+                   floatingDetailsDirection="center-up" />
         </div>
+        <p className='w-28 mx-auto bg-slate-900/75 text-center text-white border-solid border-b-2 border-r-2 border-l-2 border-gray-300'>Third Place</p>
         <div className='grow'></div>
     </>
 }
@@ -36,11 +37,12 @@ const ThirdPlace = (props: MatchProps) => {
 const Semi1 = (props: MatchProps) => {
 
     return <>
-        <div className='w-[200px] relative inline-block p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
+        <div className='w-[200px] relative inline-block p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl hover:rounded-r-none'>
             <Match {...props}
                    inline={false}
                    inverted={false}
-                   floatingDetails={true} />        
+                   floatingDetails={true}
+                   floatingDetailsDirection="right-down" />        
         </div>
     </>
 }
@@ -48,12 +50,12 @@ const Semi1 = (props: MatchProps) => {
 const Semi2 = (props: MatchProps) => {
 
     return <>
-        <div className='w-[200px] relative inline-block p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
+        <div className='w-[200px] relative inline-block p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl hover:rounded-l-none'>
             <Match {...props}
                    inline={false}
                    inverted={true}
                    floatingDetails={true}
-                   invertedDetails={true} />
+                   floatingDetailsDirection="left-down" />
         </div>
     </>
 }

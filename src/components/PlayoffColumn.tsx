@@ -21,25 +21,25 @@ const PlayoffColumnLeft = (props: PlayoffColumnProps) => {
 
   return (<>
     { pairs.map( (pair, i) => <>
-        { (i === 0) ? <div style={{height: `${margin1}px`}}></div> : null }
+        { (i === 0) ? <div style={ {height: `${margin1}px`}}></div> : null }
         <div className='flex' key={`${pair.match1.order}-${pair.match2.order}`}>
-            <div className='grow relative'>
-                <div className='w-[100%] p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl'>
+            <div className='grow'>
+                <div className='relative w-[100%] p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl hover:rounded-r-none'>
                       <Match key={pair.match1.order} 
                              {...pair.match1}
                              inline={false}
                              inverted={false}
                              floatingDetails={true}
-                             invertedDetails={false} />
+                             floatingDetailsDirection={ ( (i*2+1) <= pairs.length) ? "right-down" : "right-up"} />
                 </div>
                 <div style={{height: `${margin3}px`}}></div>  
-                <div className='w-[100%] p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl'>
+                <div className='relative w-[100%] p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl hover:rounded-r-none'>
                       <Match key={pair.match2.order} 
                              {...pair.match2}
                              inline={false}
                              inverted={false}
                              floatingDetails={true}
-                             invertedDetails={false} />
+                             floatingDetailsDirection={ ( (i*2+2) <= pairs.length) ? "right-down" : "right-up"} />
                 </div>
             </div>
             <Connector inverted={false} double={true}/>
@@ -72,23 +72,23 @@ const PlayoffColumnRight = (props: PlayoffColumnProps) => {
         { (i === 0) ? <div style={{height: `${margin1}px`}}></div> : null }
         <div className='flex' key={`${pair.match1.order}-${pair.match2.order}`}>
             <Connector inverted={true} double={true}/>
-            <div className='grow relative'>
-                <div className='w-[100%] p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl'>
+            <div className='grow'>
+                <div className='relative w-[100%] p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl hover:rounded-l-none'>
                         <Match key={pair.match1.order} 
                                {...pair.match1}
                                inline={false}
                                inverted={false}
                                floatingDetails={true}
-                               invertedDetails={true} />
+                               floatingDetailsDirection={ ( (i*2+1) <= pairs.length) ? "left-down" : "left-up"} />
                 </div>
                 <div style={{height: `${margin3}px`}}></div>  
-                <div className='w-[100%] p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl'>
+                <div className='relative w-[100%] p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl hover:rounded-l-none'>
                         <Match key={pair.match2.order} 
                                {...pair.match2}
                                inline={false}
                                inverted={false}
                                floatingDetails={true}
-                               invertedDetails={true} />
+                               floatingDetailsDirection={ ( (i*2+2) <= pairs.length) ? "left-down" : "left-up"} />
                   </div>
             </div>
         </div>
@@ -102,7 +102,7 @@ const PlayoffColumnRight = (props: PlayoffColumnProps) => {
 const PlayoffColumn = (props: PlayoffColumnProps) => {
 
     return (
-      <div className='w-[260px]'>
+      <div style={{width: `${screen.width*0.16}px`}}>
             { (props.inverted === true)
                   ? <PlayoffColumnRight matches={props.matches} margins={props.margins} />
                   : <PlayoffColumnLeft matches={props.matches} margins={props.margins} />
