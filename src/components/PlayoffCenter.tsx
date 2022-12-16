@@ -7,7 +7,7 @@ const Final = (props: MatchProps) => {
     return <>
         <div className='grow'></div>
         <p className='w-20 mx-auto bg-slate-900/75 text-center text-white border-solid border-t-2 border-r-2 border-l-2 border-gray-300 rounded-sm'>Final</p>
-        <div className='relative inline-block mx-4 p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-3xl'>
+        <div className='relative inline-block min-w-[380px] max-w-[500px] mx-auto p-1 bg-slate-900/75 text-center text-white border-solid border-2 border-gray-300 rounded-full'>
             <Match {...props}
                    inline={true}
                    floatingDetails={true} />

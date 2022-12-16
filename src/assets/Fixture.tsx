@@ -1658,9 +1658,9 @@ const Fixture = {
             "matches": [
                 {
                     "order": 1,
-                    "team_1": "-",
+                    "team_1": "Croatia",
                     "team_1_goals": null,
-                    "team_2": "-",
+                    "team_2": "Morocco",
                     "team_2_goals": null,
                     "goals": [],
                     "photo": ""
@@ -1672,9 +1672,9 @@ const Fixture = {
             "matches": [
                 {
                     "order": 1,
-                    "team_1": "-",
+                    "team_1": "Argentina",
                     "team_1_goals": null,
-                    "team_2": "-",
+                    "team_2": "France",
                     "team_2_goals": null,
                     "goals": [],
                     "photo": ""
