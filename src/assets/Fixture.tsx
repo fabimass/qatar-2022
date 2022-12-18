@@ -1645,10 +1645,23 @@ const Fixture = {
                 {
                     "order": 2,
                     "team_1": "France",
-                    "team_1_goals": null,
+                    "team_1_goals": 2,
                     "team_2": "Morocco",
-                    "team_2_goals": null,
-                    "goals": [],
+                    "team_2_goals": 0,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "5",
+                            "author": "Theo Hernandez",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "79",
+                            "author": "Randal Kolo Muani",
+                            "team": 1
+                        }
+                    ],
                     "photo": "./photos/62.png"
                 }
             ]
@@ -1659,11 +1672,30 @@ const Fixture = {
                 {
                     "order": 1,
                     "team_1": "Croatia",
-                    "team_1_goals": null,
+                    "team_1_goals": 2,
                     "team_2": "Morocco",
-                    "team_2_goals": null,
-                    "goals": [],
-                    "photo": ""
+                    "team_2_goals": 1,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "7",
+                            "author": "Josko Gvardiol",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "9",
+                            "author": "Achraf Dari",
+                            "team": 2
+                        },
+                        {
+                            "order": 3,
+                            "minute": "42",
+                            "author": "Mislav Orsic",
+                            "team": 1
+                        }
+                    ],
+                    "photo": "./photos/63.png"
                 }
             ]
         },
@@ -1677,7 +1709,7 @@ const Fixture = {
                     "team_2": "France",
                     "team_2_goals": null,
                     "goals": [],
-                    "photo": ""
+                    "photo": "./photos/64.png"
                 }
             ]
         }
