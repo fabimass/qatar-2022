@@ -1705,10 +1705,51 @@ const Fixture = {
                 {
                     "order": 1,
                     "team_1": "Argentina",
-                    "team_1_goals": null,
+                    "team_1_goals": 3,
                     "team_2": "France",
-                    "team_2_goals": null,
-                    "goals": [],
+                    "team_2_goals": 3,
+                    "goals": [
+                        {
+                            "order": 1,
+                            "minute": "23",
+                            "author": "Lionel Messi (P)",
+                            "team": 1
+                        },
+                        {
+                            "order": 2,
+                            "minute": "36",
+                            "author": "Angel Di Maria",
+                            "team": 1
+                        },
+                        {
+                            "order": 3,
+                            "minute": "80",
+                            "author": "Kylian Mbappe (P)",
+                            "team": 2
+                        },
+                        {
+                            "order": 4,
+                            "minute": "81",
+                            "author": "Kylian Mbappe",
+                            "team": 2
+                        },
+                        {
+                            "order": 5,
+                            "minute": "108",
+                            "author": "Lionel Messi",
+                            "team": 1
+                        },
+                        {
+                            "order": 6,
+                            "minute": "118",
+                            "author": "Kylian Mbappe (P)",
+                            "team": 2
+                        }
+                    ],
+                    "penalties": {
+                        "team_1": 4,
+                        "team_2": 2
+                    },
                     "photo": "./photos/64.png"
                 }
             ]

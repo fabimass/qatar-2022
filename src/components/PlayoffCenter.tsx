@@ -1,17 +1,40 @@
 import Match from './Match'
 import Connector from './Connector'
 import { PlayoffColumnProps, MatchProps } from '../assets/Interfaces'
+import { Fireworks } from '@fireworks-js/react'
+import { useState } from 'react'
 
 const Final = (props: MatchProps) => {
+
+    const [animation, setAnimation] = useState(<></>)
+
+    const firework = <Fireworks
+                        options={{
+                            rocketsPoint: {
+                                min: 0,
+                                max: 100
+                            }
+                        }}
+                        style={{
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            position: 'fixed',
+                            zIndex: -1
+                        }}/>
 
     return <>
         <div className='grow'></div>
         <p className='w-20 mx-auto bg-slate-900/75 text-center text-white border-solid border-t-2 border-r-2 border-l-2 border-gray-300'>Final</p>
-        <div className='relative inline-block min-w-[380px] max-w-[500px] mx-auto p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-full'>
+        <div className='relative inline-block min-w-[450px] max-w-[550px] mx-auto p-1 bg-slate-900/75 hover:bg-amber-300/75 text-center text-white border-solid border-2 border-gray-300 rounded-full'
+             onMouseEnter={() => setAnimation(firework)}
+             onMouseLeave={() => setAnimation(<></>)}>
             <Match {...props}
                    inline={true}
                    floatingDetails={true}
                    floatingDetailsDirection="center-down" />
+            {animation}
         </div>
         <div className='grow'>
             <Connector inverted={true} />
