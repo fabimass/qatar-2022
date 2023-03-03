@@ -8,7 +8,7 @@ const PlayoffColumnLeft = (props: PlayoffColumnProps) => {
   // Pairing matches in groups of 2
   let pairs: Array<MatchPairing> = []
   props.matches.map( (match, i, arr) => (i%2 === 0) ?  pairs.push({match1: match, match2: arr[i+1]}) : null )
-
+  
   let margin1: number = 0
   let margin2: number = 0
   let margin3: number = 0
@@ -20,9 +20,9 @@ const PlayoffColumnLeft = (props: PlayoffColumnProps) => {
   }
 
   return (<>
-    { pairs.map( (pair, i) => <>
+    { pairs.map( (pair, i) => <div key={`${pair.match1.order}-${pair.match2.order}`}>
         { (i === 0) ? <div style={ {height: `${margin1}px`}}></div> : null }
-        <div className='flex' key={`${pair.match1.order}-${pair.match2.order}`}>
+        <div className='flex'>
             <div className='grow'>
                 <div className='relative w-[100%] p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl hover:rounded-r-none'>
                       <Match key={pair.match1.order} 
@@ -45,7 +45,7 @@ const PlayoffColumnLeft = (props: PlayoffColumnProps) => {
             <Connector inverted={false} double={true}/>
         </div>
         { (i === pairs.length-1) ? <div style={{height: `${margin1}px`}}></div> : <div style={{height: `${margin2}px`}}></div> } 
-      </>) 
+      </div>) 
     }
   </>)
 }
@@ -68,9 +68,9 @@ const PlayoffColumnRight = (props: PlayoffColumnProps) => {
   }
 
   return (<>
-    { pairs.map( (pair, i) => <>
+    { pairs.map( (pair, i) => <div key={`${pair.match1.order}-${pair.match2.order}`}>
         { (i === 0) ? <div style={{height: `${margin1}px`}}></div> : null }
-        <div className='flex' key={`${pair.match1.order}-${pair.match2.order}`}>
+        <div className='flex'>
             <Connector inverted={true} double={true}/>
             <div className='grow'>
                 <div className='relative w-[100%] p-1 bg-slate-900/75 hover:bg-slate-600/75 text-center text-white border-solid border-2 border-gray-300 rounded-2xl hover:rounded-l-none'>
@@ -93,7 +93,7 @@ const PlayoffColumnRight = (props: PlayoffColumnProps) => {
             </div>
         </div>
         { (i === pairs.length-1) ? <div style={{height: `${margin1}px`}}></div> : <div style={{height: `${margin2}px`}}></div> } 
-      </>) 
+      </div>) 
     }
   </>)
 }
@@ -102,7 +102,7 @@ const PlayoffColumnRight = (props: PlayoffColumnProps) => {
 const PlayoffColumn = (props: PlayoffColumnProps) => {
 
     return (
-      <div style={{width: `${screen.width*0.16}px`}}>
+      <div style={{width: "16vw"}}>
             { (props.inverted === true)
                   ? <PlayoffColumnRight matches={props.matches} margins={props.margins} />
                   : <PlayoffColumnLeft matches={props.matches} margins={props.margins} />

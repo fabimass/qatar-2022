@@ -1,11 +1,12 @@
 import Flags from '../assets/Flags'
 import { TeamProps } from '../assets/Interfaces'
+import Image from 'next/image'
 
 // This component represents a single team and his score
 const Flag = (props: TeamProps) => {
 
     return (
-        <img src={Flags[props.name as keyof typeof Flags]} className="text-center my-auto max-h-[35px] sm:max-h-[53px]"/>
+        <Image src={Flags[props.name as keyof typeof Flags]} alt={`${props.name} flag`} width={46} height={46} className="text-center my-auto"/>
     )
 }
 
