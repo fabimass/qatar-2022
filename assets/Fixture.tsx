@@ -724,7 +724,7 @@ const Fixture = {
                             "team": 2
                         },
                         {
-                            "order": 2,
+                            "order": 3,
                             "minute": "51",
                             "author": "Ao Tanaka",
                             "team": 2
